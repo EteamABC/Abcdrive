@@ -105,17 +105,17 @@
               <div class="range range-xs-center">
                 <div class="cell-xs-10 cell-md-8">
                   <!-- RD Mailform-->
-                  <form class="rd-mailform text-left" data-form-output="form-output-global" data-form-type="contact" method="post" action="bat/rd-mailform.php">
+                  <form class="rd-mailform text-left" data-form-output="form-output-global" data-form-type="contact" method="post" action="bat/rd-contact-us.php">
                     <div class="range range-xs-center">
                       <div class="cell-sm-6">
                         <div class="form-group">
-                          <label class="form-label" for="git-3-mailform-first-name">Name</label>
+                          <label class="form-label" for="git-3-mailform-first-name">Name *</label>
                           <input class="form-control bg-white" id="git-3-mailform-first-name" type="text" name="name" data-constraints="@Required">
                         </div>
                       </div>
                       <div class="cell-sm-6">
                         <div class="form-group">
-                          <label class="form-label" for="git-3-mailform-email">E-mail</label>
+                          <label class="form-label" for="git-3-mailform-email">E-mail *</label>
                           <input class="form-control bg-white" id="git-3-mailform-email" type="text" name="email" data-constraints="@Required @Email">
                         </div>
                       </div>
@@ -127,14 +127,14 @@
                       </div>
                       <div class="cell-sm-6">
                         <div class="form-group offset-sm-top-30">
-                          <label class="form-label" for="git-3-mailform-phone">Subject</label>
+                          <label class="form-label" for="git-3-mailform-phone">Subject *</label>
                           <input class="form-control bg-white" id="git-3-mailform-phone" type="text" name="subject" data-constraints="@Required">
                         </div>
                       </div>
                       
                       <div class="cell-sm-12">
                         <div class="form-group offset-sm-top-30">
-                          <label class="form-label" for="git-3-mailform-message">Message</label>
+                          <label class="form-label" for="git-3-mailform-message">Message *</label>
                           <textarea class="form-control bg-white" id="git-3-mailform-message" name="message" data-constraints="@Required"></textarea>
                         </div>
                       </div>
