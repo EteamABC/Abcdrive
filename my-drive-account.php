@@ -1,3 +1,13 @@
+<!DOCTYPE html>
+<html class="wide wow-animation smoothscroll scrollTo" lang="en">
+  <?php include('header.php'); ?>
+  <body>
+    <!-- Page-->
+    <div class="page text-center">
+      <!-- Page Header-->
+      <header class="page-head">
+        <!-- RD Navbar Transparent-->
+        <div class="rd-navbar-wrap">
           <nav class="rd-navbar rd-navbar-default rd-navbar-light" data-md-device-layout="rd-navbar-fixed" data-lg-device-layout="rd-navbar-static" data-lg-auto-height="true" data-md-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-stick-up="true">
             <div class="rd-navbar-inner">
               <!-- RD Navbar Panel-->
@@ -5,13 +15,13 @@
                 <!-- RD Navbar Toggle-->
                 <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar, .rd-navbar-nav-wrap"><span></span></button>
                 <!--Navbar Brand-->
-                <div class="rd-navbar-brand"><a href="index.php"><img style='margin-top: -5px;margin-left: -15px;' width='138' height='31' src='images\abcdrive\Logo\abc-drive-logo-01.jpg' alt=''/></a></div>
+                <div class="rd-navbar-brand"><a href="index.html"><img style='margin-top: -5px;margin-left: -15px;' width='138' height='31' src='images\abcdrive\Logo\abc-drive-logo-01.jpg' alt=''/></a></div>
               </div>
               <div class="rd-navbar-menu-wrap">
                 <div class="rd-navbar-nav-wrap">
                   <div class="rd-navbar-mobile-scroll">
                     <!--Navbar Brand Mobile-->
-                    <div class="rd-navbar-mobile-brand"><a href="index.php"><img style='margin-top: -5px;margin-left: -15px;' width='138' height='31' src='images/intense/logo-light.png' alt=''/></a></div>
+                    <div class="rd-navbar-mobile-brand"><a href="index.html"><img style='margin-top: -5px;margin-left: -15px;' width='138' height='31' src='images\abcdrive\Logo\abc-drive-logo-01.jpg' alt=''/></a></div>
                     <div class="form-search-wrap">
                       <!-- RD Search Form-->
                       <form class="form-search rd-search" action="search-results.html" method="GET">
@@ -164,7 +174,7 @@
 
                           <li><a href="login.php"><span class="text-middle">Login</span></a> 
                           <li><a href="#"><span class="text-middle">Registration Form</span></a>
-                          <li><a href="my-drive-account.php"><span class="text-middle">My Drive Account</span></a> 
+                          <li><a href="user-data.php"><span class="text-middle">User Data</span></a> 
                             
                           </li>
                         </ul>
@@ -216,7 +226,8 @@
                       </li>
                       <li><a href="contact-us.php"><span>Contact Us</span></a>
                       </li>
-                    
+                  </div>
+                </div>
                 <!--RD Navbar Search-->
                 <div class="rd-navbar-search"><a class="rd-navbar-search-toggle mdi" data-rd-navbar-toggle=".rd-navbar-inner,.rd-navbar-search" href="#"><span></span></a>
                   <form class="rd-navbar-search-form search-form-icon-right rd-search" action="search-results.html" method="GET">
@@ -226,7 +237,11 @@
                     </div>
                     <!--button(type="submit").rd-navbar-search-form-submit.mdi.mdi-magnify-->
                   </form>
-                  <!--RD Navbar shop-->
+                  <!--div.rd-navbar-live-search-results-->
+                  <!--button(data-rd-navbar-toggle=".rd-navbar-search, .rd-navbar-inner, .rd-navbar-live-search-results").rd-navbar-search-toggle-->
+                  <!--  span-->
+                </div>
+                <!--RD Navbar shop-->
                 <div class="rd-navbar-cart-wrap"><a class="rd-navbar-cart mdi" href="#" data-rd-navbar-toggle=".rd-navbar-cart-dropdown"><span></span></a>
                   <div class="rd-navbar-cart-dropdown">
                     <ul class="rd-navbar-list-products">
@@ -251,9 +266,170 @@
                     <div class="text-center"><a class="btn btn-rect btn-sm btn-primary btn-icon btn-icon-left" href="shop-cart.html"><span class="icon mdi mdi-lock"></span>Go to checkout</a></div>
                   </div>
                 </div>
-                <!--RD Navbar shop-->
-                
-              
               </div>
             </div>
           </nav>
+        </div>
+      </header>
+      <!-- Classic Breadcrumbs-->
+      <section class="breadcrumb-classic">
+        <div class="shell section-34 section-sm-50">
+          <div class="range range-lg-middle">
+            <div class="cell-lg-2 veil reveal-sm-block cell-lg-push-2"><span class="mdi mdi-account-convert icon icon-white"></span></div>
+            <div class="cell-lg-5 veil reveal-lg-block cell-lg-push-1 text-lg-left">
+              <h2><span class="big">My Drive Account</span></h2>
+            </div>
+            <div class="offset-top-0 offset-sm-top-10 cell-lg-5 offset-lg-top-0 small cell-lg-push-3 text-lg-right">
+              <ul class="list-inline list-inline-dashed p">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Pages</a></li>
+                <li>My Drive Account
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <svg class="svg-triangle-bottom" xmlns="http://www.w3.org/2000/svg" version="1.1">
+          <defs>
+            <lineargradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+              <stop offset="0%" style="stop-color:#{startColor};stop-opacity:1;"></stop>
+              <stop offset="100%" style="stop-color:#{endColor};stop-opacity:1;"></stop>
+            </lineargradient>
+          </defs>
+          <polyline points="0,0 60,0 29,29" fill="url(##{id})"></polyline>
+        </svg>
+      </section>
+      <!-- Page Content-->
+      <main class="page-content">
+        <!-- Who i Am-->
+        <section class="section-98 section-sm-110">
+          <div class="shell">
+            <h1>John Smith</h1>
+            <hr class="divider bg-mantis">
+            <div class="range range-xs-center offset-top-20">
+              <div class="cell-sm-9 cell-md-6">
+                        <!-- Member Block Type-2-->
+                        <div class="center-block"><img class="img-circle" src="images/users/user-eugene-newman-140x140.jpg" alt=""></div>
+                        <h4>Welcome, <br/> to your DRIVE account</h4>
+                        <p>I am a jack of all trades when it comes to web design, app development and content marketing. With 12 years of experience I am proud to be called a web designer.</p>
+                <ul class="list-inline list-inline-lg list-inline-dashed list-inline-dashed-wide list-inline-picton-blue">
+                  <li class="big"><a class="text-bold text-uppercase fa-facebook-f" href="#"><span class="veil reveal-md-inline-block">Facebook</span></a></li>
+                  <li class="big"><a class="text-bold text-uppercase fa-twitter" href="#"><span class="veil reveal-md-inline-block">Update data</span></a></li>
+                  <li class="big"><a class="text-bold text-uppercase fa-instagram" href="#"><span class="veil reveal-md-inline-block">Change my password</span></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- What i Do-->
+        <section class="section-98 section-sm-110 context-dark" style="background: #191919 url(images/index-09.png);">
+          <div class="shell">
+            <h1>What it Does?</h1>
+            <hr class="divider bg-mantis">
+            <div class="range range-xs-center offset-top-0">
+              <div class="cell-sm-10">
+                <p>My Drive Account enables you to change your account details, view your current and past voucher status and statement of account.</p>
+              </div>
+            </div>
+            <div class="range range-sm-center offset-top-66">
+              <div class="cell-sm-8 cell-md-12">
+                <div class="range">
+                  <div class="cell-sm-6 cell-md-3">
+                            <!-- Circle Progress bar-circle-->
+                            <div class="progress-bar-circle" data-value="0.87" data-gradient="#5aba67, #78c157" data-empty-fill="rgb(245,245,245)"><span></span></div>
+                    <h4 class="text-bold offset-top-20">Your Available Points</h4>
+                  </div>
+                  <div class="offset-top-41 cell-sm-6 offset-sm-top-0 cell-md-3">
+                            <!-- Circle Progress bar-circle-->
+                            <div class="progress-bar-circle" data-value="0.75" data-gradient="#f5bf2f, #f3a43d" data-empty-fill="rgb(245,245,245)"><span></span></div>
+                    <h4 class="text-bold offset-top-20">Sketch 3</h4>
+                  </div>
+                  <div class="offset-top-41 cell-sm-6 cell-md-3 offset-md-top-0">
+                            <!-- Circle Progress bar-circle-->
+                            <div class="progress-bar-circle" data-value="0.42" data-gradient="#64aae1, #79ccf2" data-empty-fill="rgb(245,245,245)"><span></span></div>
+                    <h4 class="text-bold offset-top-20">Coding</h4>
+                  </div>
+                  <div class="offset-top-41 cell-sm-6 cell-md-3 offset-md-top-0">
+                            <!-- Circle Progress bar-circle-->
+                            <div class="progress-bar-circle" data-value="0.65" data-gradient="#f54b0f, #e50a0a" data-empty-fill="rgb(245,245,245)"><span></span></div>
+                    <h4 class="text-bold offset-top-20">Development</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- My Works-->
+        <section class="section-98 section-sm-110">
+          
+        </section>
+        <!-- What Clients Say?-->
+        <section class="context-dark bg-gray-base">
+                  <!-- RD Parallax-->
+                  <div class="rd-parallax" data-on="false" data-md-on="true">
+                    <div class="rd-parallax-layer" data-speed="0.35" data-type="media" data-url="images/backgrounds/background-14-1920x651.jpg"></div>
+                    <div class="rd-parallax-layer" data-speed="0" data-type="html">
+                      <div class="shell section-98 section-sm-110">
+                        <h1>What Clients Say?</h1>
+                        <hr class="divider bg-mantis">
+                        <div class="range offset-top-50">
+                                  <!-- Testimonials Slider-->
+                                  <div class="owl-carousel owl-carousel-default veil-md-owl-dots veil-owl-nav reveal-md-owl-nav inset-left-7p inset-right-7p" data-items="1" data-nav="true" data-dots="true" data-nav-class="[&quot;owl-prev mdi mdi-chevron-left&quot;, &quot;owl-next mdi mdi-chevron-right&quot;]">
+                                    <div>
+                                      <blockquote class="quote"><img class="quote-img img-circle img-bordered-white" width="80" height="80" src="images/users/user-kira-force-80x80.jpg" alt="">
+                                        <p class="quote-body offset-top-34">The support service is really excellent at all levels, from first contact to more difficult IT actions. I feel safe and guaranteed regarding the purchase of this template. Thanks a lot!</p>
+                                        <div class="offset-top-41">
+                                          <h3 class="font-accent">Kira Force</h3>
+                                        </div>
+                                        <p class="text-uppercase text-bold text-spacing-120 offset-top-10"><span class="small text-malibu">Marketing, at theme.co</span></p>
+                                      </blockquote>
+                                    </div>
+                                    <div>
+                                      <blockquote class="quote"><img class="quote-img img-circle img-bordered-white" width="80" height="80" src="images/users/user-diana-russo-80x80.jpg" alt="">
+                                        <p class="quote-body offset-top-34">The themes are beautiful But what really makes the difference is the customer service. Both pre and post sales support is second to none. Very fast, friendly and competent. I can only recommend this service.</p>
+                                        <div class="offset-top-41">
+                                          <h3 class="font-accent">Diana Russo</h3>
+                                        </div>
+                                        <p class="text-uppercase text-bold text-spacing-120 offset-top-10"><span class="small text-malibu">Freelance UX/UI designer</span></p>
+                                      </blockquote>
+                                    </div>
+                                    <div>
+                                      <blockquote class="quote"><img class="quote-img img-circle img-bordered-white" width="80" height="80" src="images/users/user-alex-merphy-80x80.jpg" alt="Alex Merphy">
+                                        <p class="quote-body offset-top-34">I am glad I’ve purchased a template from TemplateMonster. Extraordinary customer service, always available, perfect care and knowledge of the technicians. Essential if you are not an expert programmer. In any case highly recommended. Congratulations!</p>
+                                        <div class="offset-top-41">
+                                          <h3 class="font-accent">Alex Merphy</h3>
+                                        </div>
+                                        <p class="text-uppercase text-bold text-spacing-120 offset-top-10"><span class="small text-malibu">Freelance Developer</span></p>
+                                      </blockquote>
+                                    </div>
+                                    <div>
+                                      <blockquote class="quote"><img class="quote-img img-circle img-bordered-white" width="80" height="80" src="images/users/user-amanda-smith-80x80.jpg" alt="">
+                                        <p class="quote-body offset-top-34">We have purchased several themes and contacted support once, the case had to be passed to technical support but it was resolved within the day. Very fast responses and excellent templates to choose from. Would highly recommend.</p>
+                                        <div class="offset-top-41">
+                                          <h3 class="font-accent">Amanda Smith</h3>
+                                        </div>
+                                        <p class="text-uppercase text-bold text-spacing-120 offset-top-10"><span class="small text-malibu">Sales, at themes.com</span></p>
+                                      </blockquote>
+                                    </div>
+                                    <div>
+                                      <blockquote class="quote"><img class="quote-img img-circle img-bordered-white" width="80" height="80" src="images/users/user-sam-cole-80x80.jpg" alt="">
+                                        <p class="quote-body offset-top-34">Amazing Support and friendly technicians. I have bothered the team on countless occasions and they have never once seemed perturbed or annoyed by me. Thanks so much!</p>
+                                        <div class="offset-top-41">
+                                          <h3 class="font-accent">Sam Cole</h3>
+                                        </div>
+                                        <p class="text-uppercase text-bold text-spacing-120 offset-top-10"><span class="small text-malibu">Founder, at YourTax.com</span></p>
+                                      </blockquote>
+                                    </div>
+                                  </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+        </section>
+      </main>
+      <!-- Page Footers-->
+      <!-- Default footer-->
+      <?php include('footer.php'); ?>
+   
+  </body>
+</html>

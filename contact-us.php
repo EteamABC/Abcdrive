@@ -21,13 +21,13 @@
           <div class="range range-lg-middle">
             <div class="cell-lg-2 veil reveal-sm-block cell-lg-push-2"><span class="mdi mdi-map-marker-circle icon icon-white"></span></div>
             <div class="cell-lg-5 veil reveal-lg-block cell-lg-push-1 text-lg-left">
-              <h2><span class="big">Contact Us v3</span></h2>
+              <h2><span class="big">Contact Us</span></h2>
             </div>
             <div class="offset-top-0 offset-sm-top-10 cell-lg-5 offset-lg-top-0 small cell-lg-push-3 text-lg-right">
               <ul class="list-inline list-inline-dashed p">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="#">Pages</a></li>
-                <li>Contact Us v3
+                <li>Contact Us
                 </li>
               </ul>
             </div>
@@ -57,7 +57,7 @@
                       <div class="unit-left"><span class="icon icon-xs mdi mdi-phone text-primary" style="font-size: 26px;"></span></div>
                       <div class="unit-body">
                         <h6>Phone</h6>
-                        <div class="p"><a class="reveal-block" href="callto:1-800-1234-567">1-800-1234-567</a><a class="reveal-block" href="callto:1-800-6547-987">1-800-6547-987</a></div>
+                        <div class="p"><a class="reveal-block" href="callto:1-800-1234-567">(230)405 1300</a><a class="reveal-block" href="callto:1-800-6547-987">1-800-6547-987</a></div>
                       </div>
                     </div>
                   </div>
@@ -66,7 +66,7 @@
                       <div class="unit-left"><span class="icon icon-xs mdi mdi-email-open text-primary" style="font-size: 26px;"></span></div>
                       <div class="unit-body">
                         <h6>E-mail</h6>
-                        <div class="p"><a class="reveal-block" href="mailto:info@demolink.org">info@demolink.org</a></div>
+                        <div class="p"><a class="reveal-block" href="mailto:info@demolink.org">info@abcdrive.info</a></div>
                       </div>
                     </div>
                   </div>
@@ -75,7 +75,7 @@
                       <div class="unit-left"><span class="icon icon-xs mdi mdi-map text-primary" style="font-size: 26px;"></span></div>
                       <div class="unit-body">
                         <h6>Address</h6>
-                        <address class="contact-info">213, New Lenox, Chicago, IL 60606</address>
+                        <address class="contact-info">2nd Floor, ABC CENTRE, Military Road,Port Louis, Mauritius</address>
                       </div>
                     </div>
                   </div>
@@ -83,11 +83,11 @@
                     <div class="unit unit-spacing-xs unit-sm unit-sm-horizontal">
                       <div class="unit-left"><span class="icon icon-xs mdi mdi-timelapse text-primary" style="font-size: 26px;"></span></div>
                       <div class="unit-body">
-                        <h6>Open Hours</h6>
+                        <h6>Opening Hours</h6>
                         <div>
-                          <p>8:00 – 19:00 Mon – Fri</p>
+                          <p>9:00 – 16:00 Mon – Fri</p>
                         </div>
-                        <p class="offset-top-0">9:00 – 17:00 Sat</p>
+                        <p class="offset-top-0">9:00 – 12:00 Sat</p>
                       </div>
                     </div>
                   </div>
@@ -151,10 +151,10 @@
         <section>
           <!-- RD Google Map-->
           <div class="rd-google-map">
-            <div class="rd-google-map__model" id="rd-google-map" data-zoom="14" data-x="-73.9874068" data-y="40.643180" data-styles="[{&quot;featureType&quot;:&quot;administrative&quot;,&quot;elementType&quot;:&quot;labels.text.fill&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#444444&quot;}]},{&quot;featureType&quot;:&quot;administrative.locality&quot;,&quot;elementType&quot;:&quot;labels&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;on&quot;}]},{&quot;featureType&quot;:&quot;landscape&quot;,&quot;elementType&quot;:&quot;all&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#f2f2f2&quot;},{&quot;visibility&quot;:&quot;simplified&quot;}]},{&quot;featureType&quot;:&quot;poi&quot;,&quot;elementType&quot;:&quot;all&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;on&quot;}]},{&quot;featureType&quot;:&quot;poi&quot;,&quot;elementType&quot;:&quot;geometry&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;simplified&quot;},{&quot;saturation&quot;:&quot;-65&quot;},{&quot;lightness&quot;:&quot;45&quot;},{&quot;gamma&quot;:&quot;1.78&quot;}]},{&quot;featureType&quot;:&quot;poi&quot;,&quot;elementType&quot;:&quot;labels&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;off&quot;}]},{&quot;featureType&quot;:&quot;poi&quot;,&quot;elementType&quot;:&quot;labels.icon&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;off&quot;}]},{&quot;featureType&quot;:&quot;road&quot;,&quot;elementType&quot;:&quot;all&quot;,&quot;stylers&quot;:[{&quot;saturation&quot;:-100},{&quot;lightness&quot;:45}]},{&quot;featureType&quot;:&quot;road&quot;,&quot;elementType&quot;:&quot;labels&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;on&quot;}]},{&quot;featureType&quot;:&quot;road&quot;,&quot;elementType&quot;:&quot;labels.icon&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;off&quot;}]},{&quot;featureType&quot;:&quot;road.highway&quot;,&quot;elementType&quot;:&quot;all&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;simplified&quot;}]},{&quot;featureType&quot;:&quot;road.highway&quot;,&quot;elementType&quot;:&quot;labels.icon&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;off&quot;}]},{&quot;featureType&quot;:&quot;road.arterial&quot;,&quot;elementType&quot;:&quot;labels.icon&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;off&quot;}]},{&quot;featureType&quot;:&quot;transit.line&quot;,&quot;elementType&quot;:&quot;geometry&quot;,&quot;stylers&quot;:[{&quot;saturation&quot;:&quot;-33&quot;},{&quot;lightness&quot;:&quot;22&quot;},{&quot;gamma&quot;:&quot;2.08&quot;}]},{&quot;featureType&quot;:&quot;transit.station.airport&quot;,&quot;elementType&quot;:&quot;geometry&quot;,&quot;stylers&quot;:[{&quot;gamma&quot;:&quot;2.08&quot;},{&quot;hue&quot;:&quot;#ffa200&quot;}]},{&quot;featureType&quot;:&quot;transit.station.airport&quot;,&quot;elementType&quot;:&quot;labels&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;off&quot;}]},{&quot;featureType&quot;:&quot;transit.station.rail&quot;,&quot;elementType&quot;:&quot;labels.text&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;off&quot;}]},{&quot;featureType&quot;:&quot;transit.station.rail&quot;,&quot;elementType&quot;:&quot;labels.icon&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;simplified&quot;},{&quot;saturation&quot;:&quot;-55&quot;},{&quot;lightness&quot;:&quot;-2&quot;},{&quot;gamma&quot;:&quot;1.88&quot;},{&quot;hue&quot;:&quot;#ffab00&quot;}]},{&quot;featureType&quot;:&quot;water&quot;,&quot;elementType&quot;:&quot;all&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#bbd9e5&quot;},{&quot;visibility&quot;:&quot;simplified&quot;}]}]"></div>
+            <div class="rd-google-map__model" id="rd-google-map" data-zoom="14" data-x="57.50779355" data-y="-20.15266207" data-styles="[{&quot;featureType&quot;:&quot;administrative&quot;,&quot;elementType&quot;:&quot;labels.text.fill&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#444444&quot;}]},{&quot;featureType&quot;:&quot;administrative.locality&quot;,&quot;elementType&quot;:&quot;labels&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;on&quot;}]},{&quot;featureType&quot;:&quot;landscape&quot;,&quot;elementType&quot;:&quot;all&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#f2f2f2&quot;},{&quot;visibility&quot;:&quot;simplified&quot;}]},{&quot;featureType&quot;:&quot;poi&quot;,&quot;elementType&quot;:&quot;all&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;on&quot;}]},{&quot;featureType&quot;:&quot;poi&quot;,&quot;elementType&quot;:&quot;geometry&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;simplified&quot;},{&quot;saturation&quot;:&quot;-65&quot;},{&quot;lightness&quot;:&quot;45&quot;},{&quot;gamma&quot;:&quot;1.78&quot;}]},{&quot;featureType&quot;:&quot;poi&quot;,&quot;elementType&quot;:&quot;labels&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;off&quot;}]},{&quot;featureType&quot;:&quot;poi&quot;,&quot;elementType&quot;:&quot;labels.icon&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;off&quot;}]},{&quot;featureType&quot;:&quot;road&quot;,&quot;elementType&quot;:&quot;all&quot;,&quot;stylers&quot;:[{&quot;saturation&quot;:-100},{&quot;lightness&quot;:45}]},{&quot;featureType&quot;:&quot;road&quot;,&quot;elementType&quot;:&quot;labels&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;on&quot;}]},{&quot;featureType&quot;:&quot;road&quot;,&quot;elementType&quot;:&quot;labels.icon&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;off&quot;}]},{&quot;featureType&quot;:&quot;road.highway&quot;,&quot;elementType&quot;:&quot;all&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;simplified&quot;}]},{&quot;featureType&quot;:&quot;road.highway&quot;,&quot;elementType&quot;:&quot;labels.icon&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;off&quot;}]},{&quot;featureType&quot;:&quot;road.arterial&quot;,&quot;elementType&quot;:&quot;labels.icon&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;off&quot;}]},{&quot;featureType&quot;:&quot;transit.line&quot;,&quot;elementType&quot;:&quot;geometry&quot;,&quot;stylers&quot;:[{&quot;saturation&quot;:&quot;-33&quot;},{&quot;lightness&quot;:&quot;22&quot;},{&quot;gamma&quot;:&quot;2.08&quot;}]},{&quot;featureType&quot;:&quot;transit.station.airport&quot;,&quot;elementType&quot;:&quot;geometry&quot;,&quot;stylers&quot;:[{&quot;gamma&quot;:&quot;2.08&quot;},{&quot;hue&quot;:&quot;#ffa200&quot;}]},{&quot;featureType&quot;:&quot;transit.station.airport&quot;,&quot;elementType&quot;:&quot;labels&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;off&quot;}]},{&quot;featureType&quot;:&quot;transit.station.rail&quot;,&quot;elementType&quot;:&quot;labels.text&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;off&quot;}]},{&quot;featureType&quot;:&quot;transit.station.rail&quot;,&quot;elementType&quot;:&quot;labels.icon&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;simplified&quot;},{&quot;saturation&quot;:&quot;-55&quot;},{&quot;lightness&quot;:&quot;-2&quot;},{&quot;gamma&quot;:&quot;1.88&quot;},{&quot;hue&quot;:&quot;#ffab00&quot;}]},{&quot;featureType&quot;:&quot;water&quot;,&quot;elementType&quot;:&quot;all&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#bbd9e5&quot;},{&quot;visibility&quot;:&quot;simplified&quot;}]}]"></div>
             <ul class="rd-google-map__locations">
-              <li data-x="-73.9874068" data-y="40.643180">
-                <p>9870 St Vincent Place, Glasgow, DC 45 Fr 45</p>
+              <li data-x="57.50779355" data-y="-20.15266207">
+                <p>ABC CENTRE, Military Road, Port Louis</p>
               </li>
             </ul>
           </div>
