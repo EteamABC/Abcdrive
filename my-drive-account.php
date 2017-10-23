@@ -8,267 +8,13 @@
       <header class="page-head">
         <!-- RD Navbar Transparent-->
         <div class="rd-navbar-wrap">
-          <nav class="rd-navbar rd-navbar-default rd-navbar-light" data-md-device-layout="rd-navbar-fixed" data-lg-device-layout="rd-navbar-static" data-lg-auto-height="true" data-md-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-stick-up="true">
-            <div class="rd-navbar-inner">
-              <!-- RD Navbar Panel-->
-              <div class="rd-navbar-panel">
-                <!-- RD Navbar Toggle-->
-                <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar, .rd-navbar-nav-wrap"><span></span></button>
-                <!--Navbar Brand-->
-                <div class="rd-navbar-brand"><a href="index.html"><img style='margin-top: -5px;margin-left: -15px;' width='138' height='31' src='images\abcdrive\Logo\abc-drive-logo-01.jpg' alt=''/></a></div>
-              </div>
-              <div class="rd-navbar-menu-wrap">
-                <div class="rd-navbar-nav-wrap">
-                  <div class="rd-navbar-mobile-scroll">
-                    <!--Navbar Brand Mobile-->
-                    <div class="rd-navbar-mobile-brand"><a href="index.html"><img style='margin-top: -5px;margin-left: -15px;' width='138' height='31' src='images\abcdrive\Logo\abc-drive-logo-01.jpg' alt=''/></a></div>
-                    <div class="form-search-wrap">
-                      <!-- RD Search Form-->
-                      <form class="form-search rd-search" action="search-results.html" method="GET">
-                        <div class="form-group">
-                          <label class="form-label form-search-label form-label-sm" for="rd-navbar-form-search-widget">Search</label>
-                          <input class="form-search-input input-sm form-control #{inputClass}" id="rd-navbar-form-search-widget" type="text" name="s" autocomplete="off"/>
-                        </div>
-                        <button class="form-search-submit" type="submit"><span class="mdi mdi-magnify"></span></button>
-                      </form>
-                    </div>
-                    <!-- RD Navbar Nav-->
-                    <ul class="rd-navbar-nav">
-                      <li class="active"><a href="index.php"><span>Home</span></a>
-                        <ul class="rd-navbar-dropdown"> 
-                        </ul>
-                      </li>
+          <?php include 'menu.php'; ?>
+          <?php //require('bat/includes/config.php'); 
 
-                      <li><a href="#"><span>About Us</span><span class="rd-navbar-label text-middle label-custom label-danger label-xs-custom label-rounded-custom label"></span></a>
-                        <ul class="rd-navbar-dropdown">
-                          <li><a href="about-us.php"><span class="text-middle">About Us</span><span class="rd-navbar-label label-custom label-danger label-xs-custom label-rounded-custom label"></span></a>
-                          </li>
-                          <li><a href="faq.php"><span class="text-middle">FAQ's</span></a>  
-                          </li>
-                          <li><a href="#"><span class="text-middle">How it works</span></a> 
-                          </li> 
-                        </ul>
-                      </li>
+//if not logged in redirect to login page
+if(!$user->is_logged_in()){ header('Location: login.php'); } 
 
-                      <li><a href="#"><span>Offerings</span></a>
-                        <div class="rd-navbar-megamenu">
-                          <div class="row">
-                            <ul class="col-lg-3">
-                              <li><a href="404.html"><span class="rd-navbar-icon mdi mdi-bullhorn"></span><span class="text-middle">404 Page</span></a></li>
-                              <li><a href="503.html"><span class="rd-navbar-icon mdi mdi-bullhorn"></span><span class="text-middle">503 Page</span></a></li>
-                              <li><a href="about-us.html"><span class="rd-navbar-icon mdi mdi-account-multiple"></span><span class="text-middle">About Us</span></a></li>
-                              <li><a href="about-us-variant-2.html"><span class="rd-navbar-icon mdi mdi-account-multiple"></span><span class="text-middle">About Us v2</span></a></li>
-                              <li><a href="about-me.html"><span class="rd-navbar-icon mdi mdi-account-convert"></span><span class="text-middle">About Me</span></a></li>
-                              <li><a href="about-me-variant-2.html"><span class="rd-navbar-icon mdi mdi-account-convert"></span><span class="text-middle">About Me v2</span></a></li>
-                              <li><a href="services.html"><span class="rd-navbar-icon mdi mdi-folder-outline"></span><span class="text-middle">Services</span></a></li>
-                              <li><a href="our-team.html"><span class="rd-navbar-icon mdi mdi-account-switch"></span><span class="text-middle">Our Team</span></a></li>
-                            </ul>
-                            <ul class="col-lg-3">
-                              <li><a href="our-team-variant-2.html"><span class="rd-navbar-icon mdi mdi-account-switch"></span><span class="text-middle">Our Team v2</span></a></li>
-                              <li><a href="team-member.html"><span class="rd-navbar-icon mdi mdi-account-box-outline"></span><span class="text-middle">Team Member</span></a></li>
-                              <li><a href="team-member-variant-2.html"><span class="rd-navbar-icon mdi mdi-account-box-outline"></span><span class="text-middle">Team Member v2</span></a></li>
-                              <li><a href="careers.html"><span class="rd-navbar-icon mdi mdi-account-check"></span><span class="text-middle">Careers</span></a></li>
-                              <li><a href="categories.html"><span class="rd-navbar-icon mdi mdi-filter-variant"></span><span class="text-middle">Categories</span></a></li>
-                              <li><a href="faq.html"><span class="rd-navbar-icon mdi mdi-help-circle"></span><span class="text-middle">Faq</span></a></li>
-                              <li><a href="faq-variant-2.html"><span class="rd-navbar-icon mdi mdi-help-circle"></span><span class="text-middle">Faq v2</span></a></li>
-                              <li><a href="faq-variant-3.html"><span class="rd-navbar-icon mdi mdi-help-circle"></span><span class="text-middle">Faq v3</span></a></li>
-                              <li><a href="faq-variant-4.html"><span class="rd-navbar-icon mdi mdi-help-circle"></span><span class="text-middle">Faq v4</span></a></li>
-                            </ul>
-                            <ul class="col-lg-3">
-                              <li><a href="contact-me.html"><span class="rd-navbar-icon mdi mdi-contact-mail"></span><span class="text-middle">Contact Me</span></a></li>
-                              <li><a href="contact-us.html"><span class="rd-navbar-icon mdi mdi-map-marker-circle"></span><span class="text-middle">Contact Us</span></a></li>
-                              <li><a href="contact-us-variant-2.html"><span class="rd-navbar-icon mdi mdi-map-marker-circle"></span><span class="text-middle">Contact Us v2</span></a></li>
-                              <li><a href="get-in-touch.html"><span class="rd-navbar-icon mdi mdi-map-marker-circle"></span><span class="text-middle">Get In Touch</span></a></li>
-                              <li><a href="contact-us-variant-3.html"><span class="rd-navbar-icon mdi mdi-map-marker-circle"></span><span class="text-middle">Contact Us v3</span></a></li>
-                              <li><a href="sitemap.html"><span class="rd-navbar-icon mdi mdi-sitemap"></span><span class="text-middle">Sitemap</span></a></li>
-                              <li><a href="coming-soon.html"><span class="rd-navbar-icon mdi mdi-clock-fast"></span><span class="text-middle">Coming Soon</span></a></li>
-                              <li><a href="search-results.html"><span class="rd-navbar-icon mdi mdi-magnify"></span><span class="text-middle">Search Results</span></a></li>
-                              <li><a href="login.html"><span class="rd-navbar-icon mdi mdi-login"></span><span class="text-middle">Login</span></a></li>
-                            </ul>
-                            <ul class="col-lg-3">
-                              <li><a href="register.html"><span class="rd-navbar-icon mdi mdi-account-multiple-outline"></span><span class="text-middle">Register</span></a></li>
-                              <li><a href="register-login.html"><span class="rd-navbar-icon mdi mdi-account-multiple-outline"></span><span class="text-middle">Login / Register</span></a></li>
-                              <li><a href="pricing.html"><span class="rd-navbar-icon mdi mdi-certificate"></span><span class="text-middle">Pricing</span></a></li>
-                              <li><a href="make-an-appointment.html"><span class="rd-navbar-icon mdi mdi-calendar-clock"></span><span class="text-middle">Appointment</span></a></li>
-                              <li><a href="make-an-appointment-variant-2.html"><span class="rd-navbar-icon mdi mdi-calendar-clock"></span><span class="text-middle">Appointment v2</span></a></li>
-                              <li><a href="maintenance.html"><span class="rd-navbar-icon mdi mdi-wrench"></span><span class="text-middle">Maintenance</span></a></li>
-                              <li><a href="clients.html"><span class="rd-navbar-icon mdi mdi-wrench"></span><span class="text-middle">Clients</span></a></li>
-                              <li><a href="under-construction.html"><span class="rd-navbar-icon mdi mdi-worker"></span><span class="text-middle">Under Construction</span></a></li>
-                              <li><a href="privacy.html"><span class="rd-navbar-icon mdi mdi-file-outline"></span><span class="text-middle">Privacy Policy</span></a></li>
-                            </ul>
-                          </div>
-                        </div>
-                      </li>
-                      <li><a href="portfolio-grid-3-columns.html"><span>Rewards</span></a>
-                        <ul class="rd-navbar-dropdown">
-                          <li><a href="Rewards.php"><span class="text-middle">Merchandise Rewards</span></a>
-                            
-                          </li>
-                          <li><a href="#"><span class="text-middle">Grid Layout</span></a>
-                            <ul class="rd-navbar-dropdown">
-                              <li><a href="portfolio-grid-3-columns.html"><span class="text-middle">Horizontal</span></a>
-                              </li>
-                              <li><a href="portfolio-grid-3-columns-vertical.html"><span class="text-middle">Vertical</span></a>
-                              </li>
-                            </ul>
-                          </li>
-                          <li><a href="#"><span class="text-middle">Masonry Layout</span></a>
-                            <ul class="rd-navbar-dropdown">
-                              <li><a href="portfolio-masonry-3-columns.html"><span class="text-middle">Horizontal</span></a>
-                              </li>
-                              <li><a href="portfolio-masonry-3-columns-vertical.html"><span class="text-middle">Vertical</span></a>
-                              </li>
-                            </ul>
-                          </li>
-                          <li><a href="#"><span class="text-middle">Wide Layout</span></a>
-                            <ul class="rd-navbar-dropdown">
-                              <li><a href="portfolio-wide-3-columns.html"><span class="text-middle">Horizontal</span></a>
-                              </li>
-                              <li><a href="portfolio-wide-3-columns-vertical.html"><span class="text-middle">Vertical</span></a>
-                              </li>
-                            </ul>
-                          </li>
-                          <li><a href="#"><span class="text-middle">Fullwidth Layout</span></a>
-                            <ul class="rd-navbar-dropdown">
-                              <li><a href="portfolio-fullwidth-3-columns.html"><span class="text-middle">3 Columns</span></a>
-                              </li>
-                              <li><a href="portfolio-fullwidth-4-columns.html"><span class="text-middle">4 Columns</span></a>
-                              </li>
-                              <li><a href="portfolio-fullwidth-5-columns.html"><span class="text-middle">5 Columns</span></a>
-                              </li>
-                            </ul>
-                          </li>
-                          <li><a href="portfolio-fullscreen-3-columns.html"><span class="text-middle">Fullscreen Layout</span></a>
-                          </li>
-                          <li><a href="#"><span class="text-middle">Custom Effects</span></a>
-                            <ul class="rd-navbar-dropdown">
-                              <li><a href="portfolio-classic-effect.html"><span class="text-middle">Classic Effect</span></a>
-                              </li>
-                              <li><a href="portfolio-zoe-effect.html"><span class="text-middle">Zoe Effect</span></a>
-                              </li>
-                              <li><a href="portfolio-winston-effect.html"><span class="text-middle">Winston Effect</span></a>
-                              </li>
-                              <li><a href="portfolio-josip-effect.html"><span class="text-middle">Josip Effect</span></a>
-                              </li>
-                              <li><a href="portfolio-janes-effect.html"><span class="text-middle">Janes Effect</span></a>
-                              </li>
-                              <li><a href="portfolio-apollo-effect.html"><span class="text-middle">Apollo Effect</span></a>
-                              </li>
-                            </ul>
-                          </li>
-                          <li><a href="#"><span class="text-middle">Single Project</span></a>
-                            <ul class="rd-navbar-dropdown">
-                              <li><a href="portfolio-single-project-default.html"><span class="text-middle">Default</span></a>
-                              </li>
-                              <li><a href="portfolio-single-project-variant-2.html"><span class="text-middle">Variant 2</span></a>
-                              </li>
-                              <li><a href="portfolio-single-project-variant-3.html"><span class="text-middle">Variant 3</span></a>
-                              </li>
-                            </ul>
-                          </li>
-                        </ul>
-                      </li>
-
-                      <li><a href="blog-default-left-sidebar.html"><span>My Account</span></a>
-                        <ul class="rd-navbar-dropdown">
-
-                          <li><a href="login.php"><span class="text-middle">Login</span></a> 
-                          <li><a href="#"><span class="text-middle">Registration Form</span></a>
-                          <li><a href="user-data.php"><span class="text-middle">User Data</span></a> 
-                            
-                          </li>
-                        </ul>
-                      </li>
-
-                      <li><a href="shop-grid-left-sidebar.html"><span>Shop</span></a>
-                        <ul class="rd-navbar-dropdown">
-                          <li><a href="#"><span class="text-middle">Grid View</span></a>
-                            <ul class="rd-navbar-dropdown">
-                              <li><a href="shop-grid-no-sidebar.html"><span class="text-middle">No Sidebar</span></a>
-                              </li>
-                              <li><a href="shop-grid-left-sidebar.html"><span class="text-middle">Left Sidebar</span></a>
-                              </li>
-                              <li><a href="shop-grid-right-sidebar.html"><span class="text-middle">Right Sidebar</span></a>
-                              </li>
-                            </ul>
-                          </li>
-                          <li><a href="#"><span class="text-middle">List View</span></a>
-                            <ul class="rd-navbar-dropdown">
-                              <li><a href="shop-list-no-sidebar.html"><span class="text-middle">No Sidebar</span></a>
-                              </li>
-                              <li><a href="shop-list-left-sidebar.html"><span class="text-middle">Left Sidebar</span></a>
-                              </li>
-                              <li><a href="shop-list-right-sidebar.html"><span class="text-middle">Right Sidebar</span></a>
-                              </li>
-                            </ul>
-                          </li>
-                          <li><a href="#"><span class="text-middle">Single Product</span></a>
-                            <ul class="rd-navbar-dropdown">
-                              <li><a href="shop-single-product-no-sidebar.html"><span class="text-middle">No Sidebar</span></a>
-                              </li>
-                              <li><a href="shop-single-product-left-sidebar.html"><span class="text-middle">Left Sidebar</span></a>
-                              </li>
-                              <li><a href="shop-single-product-right-sidebar.html"><span class="text-middle">Right Sidebar</span></a>
-                              </li>
-                            </ul>
-                          </li>
-                          <li><a href="shop-cart.html"><span class="text-middle">Cart View</span></a>
-                          </li>
-                          <li><a href="shop-checkout.html"><span class="text-middle">Checkout</span></a>
-                            <ul class="rd-navbar-dropdown">
-                              <li><a href="shop-checkout.html"><span class="text-middle">Default</span></a>
-                              </li>
-                              <li><a href="shop-checkout-variant-2.html"><span class="text-middle">Variant 2</span></a>
-                              </li>
-                            </ul>
-                          </li>
-                        </ul>
-                      </li>
-                      <li><a href="contact-us.php"><span>Contact Us</span></a>
-                      </li>
-                  </div>
-                </div>
-                <!--RD Navbar Search-->
-                <div class="rd-navbar-search"><a class="rd-navbar-search-toggle mdi" data-rd-navbar-toggle=".rd-navbar-inner,.rd-navbar-search" href="#"><span></span></a>
-                  <form class="rd-navbar-search-form search-form-icon-right rd-search" action="search-results.html" method="GET">
-                    <div class="form-group">
-                      <label class="form-label" for="rd-navbar-search-form-input">Type and hit enter...</label>
-                      <input class="rd-navbar-search-form-input form-control form-control-gray-lightest" id="rd-navbar-search-form-input" type="text" name="s" autocomplete="off"/>
-                    </div>
-                    <!--button(type="submit").rd-navbar-search-form-submit.mdi.mdi-magnify-->
-                  </form>
-                  <!--div.rd-navbar-live-search-results-->
-                  <!--button(data-rd-navbar-toggle=".rd-navbar-search, .rd-navbar-inner, .rd-navbar-live-search-results").rd-navbar-search-toggle-->
-                  <!--  span-->
-                </div>
-                <!--RD Navbar shop-->
-                <div class="rd-navbar-cart-wrap"><a class="rd-navbar-cart mdi" href="#" data-rd-navbar-toggle=".rd-navbar-cart-dropdown"><span></span></a>
-                  <div class="rd-navbar-cart-dropdown">
-                    <ul class="rd-navbar-list-products">
-                      <li>
-                        <div class="rd-navbar-product-image"><img src="images/shop/product-01-60x60.png" alt=""/></div>
-                        <div class="rd-navbar-product-caption">
-                          <h6 class="rd-navbar-product-title"><a href="shop-single-product-left-sidebar.html">Fashion model new</a></h6>
-                          <p class="rd-navbar-product-price">$129.99</p>
-                        </div><a class="mdi mdi-window-close rd-navbar-product-remove" href="#"></a>
-                      </li>
-                      <li>
-                        <div class="rd-navbar-product-image"><img src="images/shop/product-01-60x60-3.png" alt=""/></div>
-                        <div class="rd-navbar-product-caption">
-                          <h6 class="rd-navbar-product-title"><a href="shop-single-product-left-sidebar.html">Fashion model new 2</a></h6>
-                          <p class="rd-navbar-product-price">$69.99</p>
-                        </div><a class="mdi mdi-window-close rd-navbar-product-remove" href="#"></a>
-                      </li>
-                    </ul>
-                    <div class="rd-navbar-cart-total">
-                      <h6 class="rd-navbar-cart-total-title">Cart subtotal</h6><span class="rd-navbar-cart-total-price">$199.98</span>
-                    </div>
-                    <div class="text-center"><a class="btn btn-rect btn-sm btn-primary btn-icon btn-icon-left" href="shop-cart.html"><span class="icon mdi mdi-lock"></span>Go to checkout</a></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </nav>
+?>
         </div>
       </header>
       <!-- Classic Breadcrumbs-->
@@ -282,7 +28,7 @@
             <div class="offset-top-0 offset-sm-top-10 cell-lg-5 offset-lg-top-0 small cell-lg-push-3 text-lg-right">
               <ul class="list-inline list-inline-dashed p">
                 <li><a href="index.html">Home</a></li>
-                <li><a href="#">Pages</a></li>
+                <li><a href="#">My Account</a></li>
                 <li>My Drive Account
                 </li>
               </ul>
@@ -301,26 +47,831 @@
       </section>
       <!-- Page Content-->
       <main class="page-content">
+
+      <?php
+
+        $mysqli = new mysqli('localhost', 'root', '', 'abcdrive_wp662');
+          $sql = 'SELECT * FROM wp9o_users WHERE user_login = '.$_SESSION['username'].'';
+          $result = mysqli_query ($mysqli, $sql) or die (mysqli_error ());
+          while ($row = mysqli_fetch_array ($result)){
+
+      ?>
         <!-- Who i Am-->
         <section class="section-98 section-sm-110">
           <div class="shell">
-            <h1>John Smith</h1>
+            <h1><?php echo $row['user_nicename']; ?></h1>
             <hr class="divider bg-mantis">
             <div class="range range-xs-center offset-top-20">
               <div class="cell-sm-9 cell-md-6">
                         <!-- Member Block Type-2-->
                         <div class="center-block"><img class="img-circle" src="images/users/user-eugene-newman-140x140.jpg" alt=""></div>
-                        <h4>Welcome, <br/> to your DRIVE account</h4>
+                        <h4>Welcome to your DRIVE account</h4>
                         <p>I am a jack of all trades when it comes to web design, app development and content marketing. With 12 years of experience I am proud to be called a web designer.</p>
                 <ul class="list-inline list-inline-lg list-inline-dashed list-inline-dashed-wide list-inline-picton-blue">
-                  <li class="big"><a class="text-bold text-uppercase fa-facebook-f" href="#"><span class="veil reveal-md-inline-block">Facebook</span></a></li>
-                  <li class="big"><a class="text-bold text-uppercase fa-twitter" href="#"><span class="veil reveal-md-inline-block">Update data</span></a></li>
-                  <li class="big"><a class="text-bold text-uppercase fa-instagram" href="#"><span class="veil reveal-md-inline-block">Change my password</span></a></li>
+                  <li class="big"><a class="text-bold text-uppercase" href="#"><span class="veil reveal-md-inline-block">Change my password</span></a></li>
                 </ul>
               </div>
             </div>
           </div>
         </section>
+
+        <!-- Who i Am-->
+        <section class="section-98 section-sm-110">
+          <div class="shell">
+            <h1>My Infos</h1>
+            <hr class="divider bg-mantis">
+            <div class="range range-xs-center offset-top-20">
+              <div class="cell-sm-9 cell-md-10">
+                <form class="rd-mailform text-left" data-form-output="form-output-global" data-form-type="registration" method="post" action="bat/rd-registration-form.php">
+                    <div class="range range-xs-center">
+                      <div class="cell-sm-6 offset-md-top-20">
+                        <div class="form-group">
+                          <label class="form-label form-label-outside" for="git-3-mailform-first-name">Card Number:</label>
+                          <input class="form-control bg-white" id="git-3-mailform-first-name" type="text" name="cardnumber">
+                        </div>
+                      </div>
+                      <div class="cell-sm-12 offset-md-top-20">
+                        <div class="form-group">
+                          <h3>Contact Details</h3>
+                        </div>
+                        <div class="text-subline offset-top-10"></div>
+                      </div>
+                      <div class="cell-sm-12">
+                        <div class="form-group offset-sm-top-20">
+                          <label class="form-label form-label-outside" for="git-3-mailform-email">E-mail * :</label>
+                          <input class="form-control bg-white" id="git-3-mailform-email" type="text" name="memberemail" data-constraints="@Required @Email" value="<?php echo $row['user_email']; ?>">
+                        </div>
+                      </div>
+                      <div class="cell-sm-6 offset-md-top-20">
+                        <div class="form-group">
+                          <label class="form-label form-label-outside" for="git-3-mailform-first-name">Mobile Phone No. *:</label>
+                          <input class="form-control bg-white" id="git-3-mailform-first-name" type="text" name="mobilephone" data-constraints="@Required">
+                        </div>
+                      </div>
+                      <div class="cell-sm-6 offset-md-top-20">
+                        <div class="form-group">
+                          <label class="form-label form-label-outside" for="git-3-mailform-last-name">Home Phone No. :</label>
+                          <input class="form-control bg-white" id="git-3-mailform-last-name" type="text" name="homephone">
+                        </div>
+                      </div>
+                      <div class="cell-sm-12 offset-md-top-50">
+                        <div class="form-group">
+                          <h3>Residential Address</h3>
+                        </div>
+                        <div class="text-subline offset-top-10"></div>
+                      </div>
+                      <div class="cell-sm-12">
+                        <div class="form-group offset-sm-top-20">
+                          <label class="form-label form-label-outside" for="git-3-mailform-phone">Address (Line 1)* :</label>
+                          <input class="form-control bg-white" id="git-3-mailform-phone" type="text" name="address" data-constraints="@Required">
+                        </div>
+                      </div>
+                      <div class="cell-sm-12">
+                        <div class="form-group offset-sm-top-20">
+                          <label class="form-label form-label-outside" for="git-3-mailform-phone">Address (Line 2)* :</label>
+                          <input class="form-control bg-white" id="git-3-mailform-phone" type="text" name="address2">
+                        </div>
+                      </div>
+                      <div class="cell-sm-6">
+                        <div class="form-group offset-sm-top-20">
+                          <label class="form-label form-label-outside" for="git-3-mailform-phone">Area :</label>
+                          <input class="form-control bg-white" id="git-3-mailform-phone" type="text" name="area">
+                        </div>
+                      </div>
+                      <div class="cell-sm-6">
+                        <div class="form-group offset-sm-top-20">
+                          <label class="form-label form-label-outside" for="git-3-mailform-last-name">Village/Town/City *:</label>
+                          <select class="form-control select2-hidden-accessible" name="menucity" id="rd-mailform-select" data-placeholder="Select an option" data-minimum-results-for-search="Infinity" tabindex="-1" aria-hidden="true">
+                            <option value="">---</option>
+                            <option value="Abercrombie">Abercrombie</option>
+                            <option value="Albion">Albion</option>
+                            <option value="Alma">Alma</option>
+                            <option value="Amaury">Amaury</option>
+                            <option value="Anse aux Anglais">Anse aux Anglais</option>
+                            <option value="Anse Jonchee">Anse Jonchee</option>
+                            <option value="Antoinette">Antoinette</option>
+                            <option value="Argy">Argy</option>
+                            <option value="Arsenal">Arsenal</option>
+                            <option value="Bagatelle">Bagatelle</option>
+                            <option value="Baie aux Huitres">Baie aux Huitres</option>
+                            <option value="Baie du Cap">Baie du Cap</option>
+                            <option value="Baie du Tombeau">Baie du Tombeau</option>
+                            <option value="Baie Manioc">Baie Manioc</option>
+                            <option value="Baie Topaze">Baie Topaze</option>
+                            <option value="Bain des Dames">Bain des Dames</option>
+                            <option value="Balisson">Balisson</option>
+                            <option value="Bambous">Bambous</option>
+                            <option value="Bambous Virieux">Bambous Virieux</option>
+                            <option value="Bananes">Bananes</option>
+                            <option value="Bar le Duc">Bar le Duc</option>
+                            <option value="Barlow">Barlow</option>
+                            <option value="Bassin Cabri">Bassin Cabri</option>
+                            <option value="Bassin Loulou">Bassin Loulou</option>
+                            <option value="Batimarais">Batimarais</option>
+                            <option value="Beau Bassin" selected="selected">Beau Bassin</option>
+                            <option value="Beau Bois">Beau Bois</option>
+                            <option value="Beau Champs">Beau Champs</option>
+                            <option value="Beau Fond">Beau Fond</option>
+                            <option value="Beau Mangue">Beau Mangue</option>
+                            <option value="Beau Manguier">Beau Manguier</option>
+                            <option value="Beau Plan">Beau Plan</option>
+                            <option value="Beau Sejour">Beau Sejour</option>
+                            <option value="Beau Site">Beau Site</option>
+                            <option value="Beau Vallon">Beau Vallon</option>
+                            <option value="Beaux Songes">Beaux Songes</option>
+                            <option value="Bel Air">Bel Air</option>
+                            <option value="Bel Air Riviere Seche">Bel Air Riviere Seche</option>
+                            <option value="Bel Etang">Bel Etang</option>
+                            <option value="Bel Ombre">Bel Ombre</option>
+                            <option value="Bell Village">Bell Village</option>
+                            <option value="Belle Etoile">Belle Etoile</option>
+                            <option value="Belle Isle">Belle Isle</option>
+                            <option value="Belle Mare">Belle Mare</option>
+                            <option value="Belle Rive">Belle Rive</option>
+                            <option value="Belle Rose">Belle Rose</option>
+                            <option value="Belle Terre">Belle Terre</option>
+                            <option value="Belle Vue">Belle Vue</option>
+                            <option value="Belle Vue Allendy">Belle Vue Allendy</option>
+                            <option value="Belle Vue Harel">Belle Vue Harel</option>
+                            <option value="Belle Vue Maurel">Belle Vue Maurel</option>
+                            <option value="Belle Vue Pilot">Belle Vue Pilot</option>
+                            <option value="Belmont">Belmont</option>
+                            <option value="Belvedere">Belvedere</option>
+                            <option value="Bemanique">Bemanique</option>
+                            <option value="Benares">Benares</option>
+                            <option value="Bestel">Bestel</option>
+                            <option value="Bety">Bety</option>
+                            <option value="Bois Cheri">Bois Cheri</option>
+                            <option value="Bois d’Oiseaux">Bois d’Oiseaux</option>
+                            <option value="Bois des Amourettes">Bois des Amourettes</option>
+                            <option value="Bois Jacot">Bois Jacot</option>
+                            <option value="Bois Mangue">Bois Mangue</option>
+                            <option value="Bois Marchand">Bois Marchand</option>
+                            <option value="Bois Pignolet">Bois Pignolet</option>
+                            <option value="Bois Pougnet">Bois Pougnet</option>
+                            <option value="Bois Rouge">Bois Rouge</option>
+                            <option value="Bois Sec">Bois Sec</option>
+                            <option value="Bon Accueil">Bon Accueil</option>
+                            <option value="Bon Air">Bon Air</option>
+                            <option value="Bon Courage">Bon Courage</option>
+                            <option value="Bon Espoir">Bon Espoir</option>
+                            <option value="Bon Manioc">Bon Manioc</option>
+                            <option value="Bonne Mere">Bonne Mere</option>
+                            <option value="Bonne Terre">Bonne Terre</option>
+                            <option value="Bonne Veine">Bonne Veine</option>
+                            <option value="Bouchon">Bouchon</option>
+                            <option value="Bramsthan">Bramsthan</option>
+                            <option value="Bras d’Eau">Bras d’Eau</option>
+                            <option value="Brisee Verdiere">Brisee Verdiere</option>
+                            <option value="Britannia">Britannia</option>
+                            <option value="Brule">Brule</option>
+                            <option value="Cachette">Cachette</option>
+                            <option value="Calebasses">Calebasses</option>
+                            <option value="Camp Accacia">Camp Accacia</option>
+                            <option value="Camp Auguste">Camp Auguste</option>
+                            <option value="Camp Benoit">Camp Benoit</option>
+                            <option value="Camp Berthaud">Camp Berthaud</option>
+                            <option value="Camp Bestel">Camp Bestel</option>
+                            <option value="Camp Bonnemere">Camp Bonnemere</option>
+                            <option value="Camp Bouillon">Camp Bouillon</option>
+                            <option value="Camp Carol">Camp Carol</option>
+                            <option value="Camp Cassia">Camp Cassia</option>
+                            <option value="Camp Caval">Camp Caval</option>
+                            <option value="Camp Creole">Camp Creole</option>
+                            <option value="Camp de Masque">Camp de Masque</option>
+                            <option value="Camp de Masque Pave">Camp de Masque Pave</option>
+                            <option value="Camp des Embrevades">Camp des Embrevades</option>
+                            <option value="Camp Diable">Camp Diable</option>
+                            <option value="Camp du Roi">Camp du Roi</option>
+                            <option value="Camp Fouquereaux">Camp Fouquereaux</option>
+                            <option value="Camp Garreau">Camp Garreau</option>
+                            <option value="Camp Ithier">Camp Ithier</option>
+                            <option value="Camp Jardin">Camp Jardin</option>
+                            <option value="Camp La Savanne">Camp La Savanne</option>
+                            <option value="Camp Malgache">Camp Malgache</option>
+                            <option value="Camp Mapou">Camp Mapou</option>
+                            <option value="Camp Marcelin">Camp Marcelin</option>
+                            <option value="Camp Poorun">Camp Poorun</option>
+                            <option value="Camp Roches">Camp Roches</option>
+                            <option value="Camp Sonah">Camp Sonah</option>
+                            <option value="Camp Thorel">Camp Thorel</option>
+                            <option value="Camp Thoret">Camp Thoret</option>
+                            <option value="Camp Yoloff">Camp Yoloff</option>
+                            <option value="Campbell">Campbell</option>
+                            <option value="Candos">Candos</option>
+                            <option value="Canot">Canot</option>
+                            <option value="Cap Malheureux">Cap Malheureux</option>
+                            <option value="Caroline">Caroline</option>
+                            <option value="Carreau La Liane">Carreau La Liane</option>
+                            <option value="Carreau Lalo">Carreau Lalo</option>
+                            <option value="Cascavelle">Cascavelle</option>
+                            <option value="Case Noyale">Case Noyale</option>
+                            <option value="Casela">Casela</option>
+                            <option value="Cassis">Cassis</option>
+                            <option value="Cent Gaulettes">Cent Gaulettes</option>
+                            <option value="Centre de Flacq">Centre de Flacq</option>
+                            <option value="Chamarel">Chamarel</option>
+                            <option value="Chamouny">Chamouny</option>
+                            <option value="Chantenay">Chantenay</option>
+                            <option value="Chebel">Chebel</option>
+                            <option value="Chemin Grenier">Chemin Grenier</option>
+                            <option value="Choisy">Choisy</option>
+                            <option value="Cinq Arpents">Cinq Arpents</option>
+                            <option value="Circonstance">Circonstance</option>
+                            <option value="Cite La Cure">Cite La Cure</option>
+                            <option value="Cite Valijee">Cite Valijee</option>
+                            <option value="Citron Donis">Citron Donis</option>
+                            <option value="Citronelle">Citronelle</option>
+                            <option value="Clarence">Clarence</option>
+                            <option value="Clavet">Clavet</option>
+                            <option value="Clemencia">Clemencia</option>
+                            <option value="Cluny">Cluny</option>
+                            <option value="Congomah">Congomah</option>
+                            <option value="Constance">Constance</option>
+                            <option value="Coquinbourg">Coquinbourg</option>
+                            <option value="Coromandel">Coromandel</option>
+                            <option value="Cote d’Or">Cote d’Or</option>
+                            <option value="Coteau Raffin">Coteau Raffin</option>
+                            <option value="Cottage">Cottage</option>
+                            <option value="Creve Coeur">Creve Coeur</option>
+                            <option value="Curepipe">Curepipe</option>
+                            <option value="D’Epinay">D’Epinay</option>
+                            <option value="Dagotiere">Dagotiere</option>
+                            <option value="Dalais">Dalais</option>
+                            <option value="Deep River">Deep River</option>
+                            <option value="Deux Bras">Deux Bras</option>
+                            <option value="Deux Freres">Deux Freres</option>
+                            <option value="Dubreuil">Dubreuil</option>
+                            <option value="Eau Bleue">Eau Bleue</option>
+                            <option value="Eau Bonne">Eau Bonne</option>
+                            <option value="Eau Vannee">Eau Vannee</option>
+                            <option value="Eaux Coulee">Eaux Coulee</option>
+                            <option value="Ebene CyberCity">Ebene CyberCity</option>
+                            <option value="Ecroignard">Ecroignard</option>
+                            <option value="Engrais Cathan">Engrais Cathan</option>
+                            <option value="Engrais Martial">Engrais Martial</option>
+                            <option value="Ernest Florent">Ernest Florent</option>
+                            <option value="Ferney">Ferney</option>
+                            <option value="Ferney Mill">Ferney Mill</option>
+                            <option value="Flacq">Flacq</option>
+                            <option value="Flic en Flac">Flic en Flac</option>
+                            <option value="Floreal">Floreal</option>
+                            <option value="Fond du Sac">Fond du Sac</option>
+                            <option value="Fontenelle">Fontenelle</option>
+                            <option value="Forbach">Forbach</option>
+                            <option value="Forest Side">Forest Side</option>
+                            <option value="Frederica">Frederica</option>
+                            <option value="Germain">Germain</option>
+                            <option value="Glen Park">Glen Park</option>
+                            <option value="Gokoola">Gokoola</option>
+                            <option value="Goodlands">Goodlands</option>
+                            <option value="Grand Baie">Grand Baie</option>
+                            <option value="Grand Bel Air">Grand Bel Air</option>
+                            <option value="Grand Bois">Grand Bois</option>
+                            <option value="Grand dans Fond">Grand dans Fond</option>
+                            <option value="Grand Gaube">Grand Gaube</option>
+                            <option value="Grand Riviere Nord Ouest">Grand Riviere Nord Ouest</option>
+                            <option value="Grand Riviere Noire">Grand Riviere Noire</option>
+                            <option value="Grand Sable">Grand Sable</option>
+                            <option value="Grande Montagne">Grande Montagne</option>
+                            <option value="Grande Retraite">Grande Retraite</option>
+                            <option value="Grande Rivere">Grande Rivere</option>
+                            <option value="Grande Riviere Sud Est">Grande Riviere Sud Est</option>
+                            <option value="Grande Rosalie">Grande Rosalie</option>
+                            <option value="Gros Billot">Gros Billot</option>
+                            <option value="Gros Bois">Gros Bois</option>
+                            <option value="Gros Cailloux">Gros Cailloux</option>
+                            <option value="Haute Rive">Haute Rive</option>
+                            <option value="Helvetia">Helvetia</option>
+                            <option value="Henrietta">Henrietta</option>
+                            <option value="Hermitage">Hermitage</option>
+                            <option value="Herve">Herve</option>
+                            <option value="Highlands">Highlands</option>
+                            <option value="Hollywood">Hollywood</option>
+                            <option value="Ilot">Ilot</option>
+                            <option value="Isidore Rose">Isidore Rose</option>
+                            <option value="Joli Bois">Joli Bois</option>
+                            <option value="Khoyratty">Khoyratty</option>
+                            <option value="L’Agrement">L’Agrement</option>
+                            <option value="L’Amitie">L’Amitie</option>
+                            <option value="L’Assurance">L’Assurance</option>
+                            <option value="L’Avenir">L’Avenir</option>
+                            <option value="L’Embrasure">L’Embrasure</option>
+                            <option value="L’Escalier">L’Escalier</option>
+                            <option value="L’Esperance">L’Esperance</option>
+                            <option value="Union">Union</option>
+                            <option value="L’Unite">L’Unite</option>
+                            <option value="La Baraque">La Baraque</option>
+                            <option value="La Bergerie">La Bergerie</option>
+                            <option value="La Caroline">La Caroline</option>
+                            <option value="La Caverne">La Caverne</option>
+                            <option value="La Chaumiere">La Chaumiere</option>
+                            <option value="La Clemence">La Clemence</option>
+                            <option value="La Commune">La Commune</option>
+                            <option value="La Coterie">La Coterie</option>
+                            <option value="La Crete">La Crete</option>
+                            <option value="La Ferme">La Ferme</option>
+                            <option value="La Flora">La Flora</option>
+                            <option value="La Fouche">La Fouche</option>
+                            <option value="La Gaiete">La Gaiete</option>
+                            <option value="La Gaulette">La Gaulette</option>
+                            <option value="La Laura">La Laura</option>
+                            <option value="La Louise">La Louise</option>
+                            <option value="La Lucia">La Lucia</option>
+                            <option value="La Lucie">La Lucie</option>
+                            <option value="La Marie">La Marie</option>
+                            <option value="La Mecque">La Mecque</option>
+                            <option value="La Mivoie">La Mivoie</option>
+                            <option value="La Morue">La Morue</option>
+                            <option value="La Nourrice">La Nourrice</option>
+                            <option value="La Rampe">La Rampe</option>
+                            <option value="La Rampe - Le Moirt">La Rampe - Le Moirt</option>
+                            <option value="La Rosa">La Rosa</option>
+                            <option value="La Source">La Source</option>
+                            <option value="La Sourdine">La Sourdine</option>
+                            <option value="Labonte">Labonte</option>
+                            <option value="Labourdonnais">Labourdonnais</option>
+                            <option value="Lagesse">Lagesse</option>
+                            <option value="L'Agrement">L'Agrement</option>
+                            <option value="Lallmatie">Lallmatie</option>
+                            <option value="Lapeyre">Lapeyre</option>
+                            <option value="Latanier">Latanier</option>
+                            <option value="Laventure">Laventure</option>
+                            <option value="Lavilleon">Lavilleon</option>
+                            <option value="Le Bouchon">Le Bouchon</option>
+                            <option value="Le Chaland">Le Chaland</option>
+                            <option value="Le Goulet">Le Goulet</option>
+                            <option value="Le Hochet">Le Hochet</option>
+                            <option value="Le Marres">Le Marres</option>
+                            <option value="Le Morne">Le Morne</option>
+                            <option value="Le Petrin">Le Petrin</option>
+                            <option value="Le Plessis">Le Plessis</option>
+                            <option value="Le Ravin">Le Ravin</option>
+                            <option value="Le Reduit">Le Reduit</option>
+                            <option value="Le Val">Le Val</option>
+                            <option value="Le Vallon">Le Vallon</option>
+                            <option value="Leonbourg">Leonbourg</option>
+                            <option value="Les Guibies">Les Guibies</option>
+                            <option value="Les Mariannes">Les Mariannes</option>
+                            <option value="Les Marres">Les Marres</option>
+                            <option value="Les Salines">Les Salines</option>
+                            <option value="L'Esperance Trebuchet">L'Esperance Trebuchet</option>
+                            <option value="L'Espoir">L'Espoir</option>
+                            <option value="Lesur">Lesur</option>
+                            <option value="Ligne Barrin">Ligne Barrin</option>
+                            <option value="Luchon">Luchon</option>
+                            <option value="Luçon">Luçon</option>
+                            <option value="L'Union">L'Union</option>
+                            <option value="Madame Azor">Madame Azor</option>
+                            <option value="Madame Cayeux">Madame Cayeux</option>
+                            <option value="Magenta">Magenta</option>
+                            <option value="Mahebourg">Mahebourg</option>
+                            <option value="Maison Blanche">Maison Blanche</option>
+                            <option value="Malherbes">Malherbes</option>
+                            <option value="Mangues">Mangues</option>
+                            <option value="Mapou">Mapou</option>
+                            <option value="Mare Carree">Mare Carree</option>
+                            <option value="Mare Chicose">Mare Chicose</option>
+                            <option value="Mare d’Albert">Mare d’Albert</option>
+                            <option value="Mare d’Australia">Mare d’Australia</option>
+                            <option value="Mare Jacot">Mare Jacot</option>
+                            <option value="Mare Jocquot">Mare Jocquot</option>
+                            <option value="Mare La Chaux">Mare La Chaux</option>
+                            <option value="Mare Saint-Amand">Mare Saint-Amand</option>
+                            <option value="Mare Samson">Mare Samson</option>
+                            <option value="Mare Tabac">Mare Tabac</option>
+                            <option value="Marechal">Marechal</option>
+                            <option value="Marie Jeanne">Marie Jeanne</option>
+                            <option value="Medine">Medine</option>
+                            <option value="Medine Anna">Medine Anna</option>
+                            <option value="Melotte">Melotte</option>
+                            <option value="Melrose">Melrose</option>
+                            <option value="Melville">Melville</option>
+                            <option value="Mesnil">Mesnil</option>
+                            <option value="Metheline">Metheline</option>
+                            <option value="Midlands">Midlands</option>
+                            <option value="Minissy">Minissy</option>
+                            <option value="Moka">Moka</option>
+                            <option value="Mon Desert">Mon Desert</option>
+                            <option value="Mon Goût">Mon Goût</option>
+                            <option value="Mon Loisir">Mon Loisir</option>
+                            <option value="Mon Piton">Mon Piton</option>
+                            <option value="Mon Repos">Mon Repos</option>
+                            <option value="Mon Rocher">Mon Rocher</option>
+                            <option value="Mon Songe">Mon Songe</option>
+                            <option value="Mon Tresor">Mon Tresor</option>
+                            <option value="Mon Tresor - Mon Desert">Mon Tresor - Mon Desert</option>
+                            <option value="Mont Blanc">Mont Blanc</option>
+                            <option value="Mont Choisy">Mont Choisy</option>
+                            <option value="Mont Fleury">Mont Fleury</option>
+                            <option value="Mont Ida">Mont Ida</option>
+                            <option value="Mont Lubin">Mont Lubin</option>
+                            <option value="Montagne Blanche">Montagne Blanche</option>
+                            <option value="Montagne Longue">Montagne Longue</option>
+                            <option value="Montagne Ory">Montagne Ory</option>
+                            <option value="Montebello">Montebello</option>
+                            <option value="Morcellement Saint Andre">Morcellement Saint Andre</option>
+                            <option value="Mount">Mount</option>
+                            <option value="New Grove">New Grove</option>
+                            <option value="Notre Dame">Notre Dame</option>
+                            <option value="Nouvelle Decouverte">Nouvelle Decouverte</option>
+                            <option value="Nouvelle France">Nouvelle France</option>
+                            <option value="Olivia">Olivia</option>
+                            <option value="Pailles">Pailles</option>
+                            <option value="Palissade Ternel">Palissade Ternel</option>
+                            <option value="Palma">Palma</option>
+                            <option value="Palmar">Palmar</option>
+                            <option value="Palmyre">Palmyre</option>
+                            <option value="Pamplemousses">Pamplemousses</option>
+                            <option value="Patate Theophile">Patate Theophile</option>
+                            <option value="Paves">Paves</option>
+                            <option value="Pavillon">Pavillon</option>
+                            <option value="Pelissis">Pelissis</option>
+                            <option value="Pellegrin">Pellegrin</option>
+                            <option value="Pereybere">Pereybere</option>
+                            <option value="Petit Bel Air">Petit Bel Air</option>
+                            <option value="Petit Bois">Petit Bois</option>
+                            <option value="Petit Brule">Petit Brule</option>
+                            <option value="Petit Camp">Petit Camp</option>
+                            <option value="Petit Gabriel">Petit Gabriel</option>
+                            <option value="Petit Gamin">Petit Gamin</option>
+                            <option value="Petit Gravier">Petit Gravier</option>
+                            <option value="Petit Paquet">Petit Paquet</option>
+                            <option value="Petit Raffray">Petit Raffray</option>
+                            <option value="Petit Sable">Petit Sable</option>
+                            <option value="Petit Verger">Petit Verger</option>
+                            <option value="Petite Butte">Petite Butte</option>
+                            <option value="Petite Cabane">Petite Cabane</option>
+                            <option value="Petite Case Noyale">Petite Case Noyale</option>
+                            <option value="Petite Julie">Petite Julie</option>
+                            <option value="Petite Riviere">Petite Riviere</option>
+                            <option value="Petite Riviere Noire">Petite Riviere Noire</option>
+                            <option value="Petite Rosalie">Petite Rosalie</option>
+                            <option value="Phoenix">Phoenix</option>
+                            <option value="Piton">Piton</option>
+                            <option value="Piton village">Piton village</option>
+                            <option value="Plaine Corail">Plaine Corail</option>
+                            <option value="Plaine des Papayes">Plaine des Papayes</option>
+                            <option value="Plaine des Roches">Plaine des Roches</option>
+                            <option value="Plaine Magnien">Plaine Magnien</option>
+                            <option value="Plaine Noel">Plaine Noel</option>
+                            <option value="Plaine Sophie">Plaine Sophie</option>
+                            <option value="Plaine Verte">Plaine Verte</option>
+                            <option value="Plaisance">Plaisance</option>
+                            <option value="Plein Bois">Plein Bois</option>
+                            <option value="Pointe aux Canonniers">Pointe aux Canonniers</option>
+                            <option value="Pointe aux Feuilles">Pointe aux Feuilles</option>
+                            <option value="Pointe aux Piments">Pointe aux Piments</option>
+                            <option value="Pointe aux Roches">Pointe aux Roches</option>
+                            <option value="Pointe aux Sables">Pointe aux Sables</option>
+                            <option value="Pointe d’Esny">Pointe d’Esny</option>
+                            <option value="Pomponnette">Pomponnette</option>
+                            <option value="Pont Blanc">Pont Blanc</option>
+                            <option value="Pont Praslin">Pont Praslin</option>
+                            <option value="Port Louis">Port Louis</option>
+                            <option value="Port Mathurin">Port Mathurin</option>
+                            <option value="Port Sud-Est">Port Sud-Est</option>
+                            <option value="Poste de Flacq">Poste de Flacq</option>
+                            <option value="Poudre d’Or">Poudre d’Or</option>
+                            <option value="Poudre d’Or Hamlet">Poudre d’Or Hamlet</option>
+                            <option value="Poudre D’Or Village">Poudre D’Or Village</option>
+                            <option value="Providence">Providence</option>
+                            <option value="Quartier Militaire">Quartier Militaire</option>
+                            <option value="Quatre Bornes">Quatre Bornes</option>
+                            <option value="Quatre Cocos">Quatre Cocos</option>
+                            <option value="Quatre Soeurs">Quatre Soeurs</option>
+                            <option value="Quatre Vents">Quatre Vents</option>
+                            <option value="Queen Victoria">Queen Victoria</option>
+                            <option value="Quinze Cantons">Quinze Cantons</option>
+                            <option value="Ravin">Ravin</option>
+                            <option value="Reduit">Reduit</option>
+                            <option value="Reunion">Reunion</option>
+                            <option value="Reunion Maurel">Reunion Maurel</option>
+                            <option value="Riambel">Riambel</option>
+                            <option value="Riche Bois">Riche Bois</option>
+                            <option value="Riche en Eau">Riche en Eau</option>
+                            <option value="Riche Terre">Riche Terre</option>
+                            <option value="Ripailles">Ripailles</option>
+                            <option value="River Side">River Side</option>
+                            <option value="Riviere Baptiste">Riviere Baptiste</option>
+                            <option value="Riviere Cocos">Riviere Cocos</option>
+                            <option value="Riviere des Anguilles">Riviere des Anguilles</option>
+                            <option value="Riviere des Creoles">Riviere des Creoles</option>
+                            <option value="Riviere Dragon">Riviere Dragon</option>
+                            <option value="Riviere du Poste">Riviere du Poste</option>
+                            <option value="Riviere du Rempart">Riviere du Rempart</option>
+                            <option value="Riviere Noire">Riviere Noire</option>
+                            <option value="Riviere Profonde">Riviere Profonde</option>
+                            <option value="Riviere Seche">Riviere Seche</option>
+                            <option value="Robinson">Robinson</option>
+                            <option value="Roche Bois">Roche Bois</option>
+                            <option value="Roche Bon Dieu">Roche Bon Dieu</option>
+                            <option value="Roche Terre">Roche Terre</option>
+                            <option value="Roches Brunes">Roches Brunes</option>
+                            <option value="Roches Noires">Roches Noires</option>
+                            <option value="Rose Belle">Rose Belle</option>
+                            <option value="Rose Hill">Rose Hill</option>
+                            <option value="Roselyn Cottage">Roselyn Cottage</option>
+                            <option value="Ruisseau Copeaux">Ruisseau Copeaux</option>
+                            <option value="Ruisseau des Creoles">Ruisseau des Creoles</option>
+                            <option value="Ruisseau Rose">Ruisseau Rose</option>
+                            <option value="Saint Antoine">Saint Antoine</option>
+                            <option value="Saint Aubin">Saint Aubin</option>
+                            <option value="Saint Avold">Saint Avold</option>
+                            <option value="Saint Cloud">Saint Cloud</option>
+                            <option value="Saint Felix">Saint Felix</option>
+                            <option value="Saint Francois">Saint Francois</option>
+                            <option value="Saint Gabriel">Saint Gabriel</option>
+                            <option value="Saint Hilaire">Saint Hilaire</option>
+                            <option value="Saint Hubert">Saint Hubert</option>
+                            <option value="Saint Jean">Saint Jean</option>
+                            <option value="Saint Julien">Saint Julien</option>
+                            <option value="Saint Julien Village">Saint Julien Village</option>
+                            <option value="Saint Louis">Saint Louis</option>
+                            <option value="Saint Martin">Saint Martin</option>
+                            <option value="Saint Paul">Saint Paul</option>
+                            <option value="Saint Pierre">Saint Pierre</option>
+                            <option value="Saint Remy">Saint Remy</option>
+                            <option value="Saint-Andre">Saint-Andre</option>
+                            <option value="Sainte Croix">Sainte Croix</option>
+                            <option value="Sainte Madeleine">Sainte Madeleine</option>
+                            <option value="Sainte Philomene">Sainte Philomene</option>
+                            <option value="Sainte Rita">Sainte Rita</option>
+                            <option value="Sainte-Marie">Sainte-Marie</option>
+                            <option value="Saint-Joseph">Saint-Joseph</option>
+                            <option value="Salazie">Salazie</option>
+                            <option value="Sans Souci">Sans Souci</option>
+                            <option value="Savannah">Savannah</option>
+                            <option value="Savinia">Savinia</option>
+                            <option value="Schoenfeld">Schoenfeld</option>
+                            <option value="Sebastopol">Sebastopol</option>
+                            <option value="Seizieme Mille">Seizieme Mille</option>
+                            <option value="Senneville">Senneville</option>
+                            <option value="Solferino">Solferino</option>
+                            <option value="Solitude">Solitude</option>
+                            <option value="Sottise">Sottise</option>
+                            <option value="Souillac">Souillac</option>
+                            <option value="Soupir">Soupir</option>
+                            <option value="Stanley">Stanley</option>
+                            <option value="Suase">Suase</option>
+                            <option value="Sujakas">Sujakas</option>
+                            <option value="Surinam">Surinam</option>
+                            <option value="Tamarin">Tamarin</option>
+                            <option value="Telfair">Telfair</option>
+                            <option value="Terracine">Terracine</option>
+                            <option value="Terre Rouge">Terre Rouge</option>
+                            <option value="The Mount">The Mount</option>
+                            <option value="The Vale">The Vale</option>
+                            <option value="Tranquebar">Tranquebar</option>
+                            <option value="Trefles">Trefles</option>
+                            <option value="Trianon">Trianon</option>
+                            <option value="Trio">Trio</option>
+                            <option value="Triolet">Triolet</option>
+                            <option value="Trois Boutiques">Trois Boutiques</option>
+                            <option value="Trois Cavernes">Trois Cavernes</option>
+                            <option value="Trois Ilots">Trois Ilots</option>
+                            <option value="Trou aux Biches">Trou aux Biches</option>
+                            <option value="Trou Chenilles">Trou Chenilles</option>
+                            <option value="Trou d’Eau Douce">Trou d’Eau Douce</option>
+                            <option value="Trublet">Trublet</option>
+                            <option value="Tyack">Tyack</option>
+                            <option value="Union Flacq">Union Flacq</option>
+                            <option value="Union Maurel">Union Maurel</option>
+                            <option value="Union Park">Union Park</option>
+                            <option value="Union Saint Aubin">Union Saint Aubin</option>
+                            <option value="Union Vale">Union Vale</option>
+                            <option value="Vacoas">Vacoas</option>
+                            <option value="Vainqueur">Vainqueur</option>
+                            <option value="Valentina">Valentina</option>
+                            <option value="Valetta">Valetta</option>
+                            <option value="Vallee des Pretres">Vallee des Pretres</option>
+                            <option value="Vallee Pitot">Vallee Pitot</option>
+                            <option value="Valriche">Valriche</option>
+                            <option value="Valton">Valton</option>
+                            <option value="Verdun">Verdun</option>
+                            <option value="Vieux Grand Port">Vieux Grand Port</option>
+                            <option value="Ville Bague">Ville Bague</option>
+                            <option value="Ville d’Avray">Ville d’Avray</option>
+                            <option value="Ville Noire">Ville Noire</option>
+                            <option value="Ville Valio">Ville Valio</option>
+                            <option value="Virginia">Virginia</option>
+                            <option value="Vuillemin">Vuillemin</option>
+                            <option value="Wolmar">Wolmar</option>
+                            <option value="Yemen">Yemen</option>
+                          </select>
+                        </div>
+                      </div>
+
+                      <div class="cell-sm-12 offset-md-top-50">
+                        <div class="form-group">
+                          <h3>Professional Details</h3>
+                        </div>
+                        <div class="text-subline offset-top-10"></div>
+                      </div>
+
+                      <div class="cell-sm-6">
+                        <div class="form-group offset-sm-top-20">
+                          <label class="form-label form-label-outside" for="git-3-mailform-phone">Profession* :</label>
+                          <input class="form-control bg-white" id="git-3-mailform-phone" type="text" name="profession" data-constraints="@Required">
+                        </div>
+                      </div>
+                      <div class="cell-sm-6">
+                        <div class="form-group offset-sm-top-20">
+                          <label class="form-label form-label-outside" for="git-3-mailform-phone"> Company Name :</label>
+                          <input class="form-control bg-white" id="git-3-mailform-phone" type="text" name="companyname">
+                        </div>
+                      </div>
+
+                      <div class="cell-sm-7">
+                        <div class="form-group offset-sm-top-20">
+                          <label class="form-label form-label-outside" for="git-3-mailform-phone">Industry :</label>
+                          <select class="form-control select2-hidden-accessible" name="industry" id="rd-mailform-select" data-placeholder="Select an option" data-minimum-results-for-search="Infinity" tabindex="-1" aria-hidden="true">
+                            <option value="Other">Other</option>
+                            <option value="Accommodation and Food Services">Accommodation and Food Services</option>
+                            <option value="Administrative and Support and Waste Management and Remediation Services">Administrative and Support and Waste Management and Remediation Services</option>
+                            <option value="Agriculture, Forestry, Fishing and Hunting">Agriculture, Forestry, Fishing and Hunting</option>
+                            <option value="Arts, Entertainment, and Recreation">Arts, Entertainment, and Recreation</option>
+                            <option value="Automobile">Automobile</option>
+                            <option value="Construction">Construction</option>
+                            <option value="Educational Services">Educational Services</option>
+                            <option value="Finance and Insurance">Finance and Insurance</option>
+                            <option value="Health Care and Social Assistance">Health Care and Social Assistance</option>
+                            <option value="Information">Information</option>
+                            <option value="Management of Companies and Enterprises">Management of Companies and Enterprises</option>
+                            <option value="Manufacturing">Manufacturing</option>
+                            <option value="Mining, Quarrying, and Oil and Gas Extraction">Mining, Quarrying, and Oil and Gas Extraction</option>
+                            <option value="Other Services (except Public Administration)">Other Services (except Public Administration)</option>
+                            <option value="Professional, Scientific, and Technical Services">Professional, Scientific, and Technical Services</option>
+                            <option value="Public Administration">Public Administration</option>
+                            <option value="Real Estate and Rental and Leasing">Real Estate and Rental and Leasing</option>
+                            <option value="Retail Trade">Retail Trade</option>
+                            <option value="Tourism">Tourism</option>
+                            <option value="Transportation and Warehousing">Transportation and Warehousing</option>
+                            <option value="Utilities">Utilities</option>
+                            <option value="Wholesale Trade">Wholesale Trade</option>
+                          </select>
+                        </div>
+                      </div>
+
+                      <div class="cell-sm-5 offset-md-top-20">
+                        <div class="form-group">
+                          <label class="form-label form-label-outside" for="git-3-mailform-first-name">Office Phone No. :</label>
+                          <input class="form-control bg-white" id="git-3-mailform-first-name" type="text" name="officephone">
+                        </div>
+                      </div>
+
+                      <div class="cell-sm-12 offset-md-top-50">
+                        <div class="form-group">
+                          <h3>Vehicles Information</h3>
+                        </div>
+                        <div class="text-subline offset-top-10"></div>
+                      </div>
+
+                      <div class="cell-sm-12 offset-md-top-30">
+                        <div class="form-group">
+                          <h5>Vehicle 1*</h5>
+                        </div>
+                      </div>
+
+                      <div class="cell-sm-6">
+                        <div class="form-group offset-sm-top-20">
+                          <label class="form-label form-label-outside" for="git-3-mailform-phone">Brand* :</label>
+                          <input class="form-control bg-white" id="git-3-mailform-phone" type="text" name="brand1">
+                        </div>
+                      </div>
+
+                      <div class="cell-sm-6">
+                        <div class="form-group offset-sm-top-20">
+                          <label class="form-label form-label-outside" for="git-3-mailform-phone">Model/Year* :</label>
+                          <input class="form-control bg-white" id="git-3-mailform-phone" type="text" name="model1">
+                        </div>
+                      </div>
+
+                      <div class="cell-sm-6">
+                        <div class="form-group offset-sm-top-20">
+                          <label class="form-label form-label-outside" for="git-3-mailform-phone">Registration No.* :</label>
+                          <input class="form-control bg-white" id="git-3-mailform-phone" type="text" name="plate1">
+                        </div>
+                      </div>
+
+                      <div class="cell-sm-6">
+                        <div class="form-group offset-sm-top-20">
+                          <label class="form-label form-label-outside" for="git-3-mailform-phone"> Car Owner Type* :</label>
+                          <select class="form-control select2-hidden-accessible" name="carownertype1" id="rd-mailform-select" data-placeholder="Select an option" data-minimum-results-for-search="Infinity" tabindex="-1" aria-hidden="true">
+                            <option value="Own car">Own car</option>
+                            <option value="Company car">Company car</option>
+                          </select>
+                        </div>
+                      </div>
+
+                      <div class="cell-sm-12 offset-md-top-30">
+                        <div class="form-group">
+                          <h5>Vehicle 2</h5>
+                        </div>
+                      </div>
+
+                      <div class="cell-sm-6">
+                        <div class="form-group offset-sm-top-20">
+                          <label class="form-label form-label-outside" for="git-3-mailform-phone">Brand* :</label>
+                          <input class="form-control bg-white" id="git-3-mailform-phone" type="text" name="brand2">
+                        </div>
+                      </div>
+
+                      <div class="cell-sm-6">
+                        <div class="form-group offset-sm-top-20">
+                          <label class="form-label form-label-outside" for="git-3-mailform-phone">Model/Year* :</label>
+                          <input class="form-control bg-white" id="git-3-mailform-phone" type="text" name="model2">
+                        </div>
+                      </div>
+
+                      <div class="cell-sm-6">
+                        <div class="form-group offset-sm-top-20">
+                          <label class="form-label form-label-outside" for="git-3-mailform-phone">Registration No.* :</label>
+                          <input class="form-control bg-white" id="git-3-mailform-phone" type="text" name="plate2">
+                        </div>
+                      </div>
+
+                      <div class="cell-sm-6">
+                        <div class="form-group offset-sm-top-20">
+                          <label class="form-label form-label-outside" for="git-3-mailform-phone"> Car Owner Type* :</label>
+                          <select class="form-control select2-hidden-accessible" name="carownertype2" id="rd-mailform-select" data-placeholder="Select an option" data-minimum-results-for-search="Infinity" tabindex="-1" aria-hidden="true">
+                            <option value="Own car">Own car</option>
+                            <option value="Company car">Company car</option>
+                          </select>
+                        </div>
+                      </div>
+
+                      <div class="cell-sm-12 offset-md-top-50">
+                        <div class="form-group">
+                          <h3>Family Information</h3>
+                        </div>
+                        <div class="text-subline offset-top-10"></div>
+                      </div>
+
+                      <div class="cell-sm-6">
+                        <div class="form-group offset-sm-top-20">
+                          <label class="form-label form-label-outside" for="git-3-mailform-phone">Marital Status :</label>
+                          <select class="form-control select2-hidden-accessible" name="maritalstatus" id="rd-mailform-select" data-placeholder="Select an option" data-minimum-results-for-search="Infinity" tabindex="-1" aria-hidden="true">
+                            <option value="Married">Married</option>
+                            <option value="Widowed">Widowed</option>
+                            <option value="Separated">Separated</option>
+                            <option value="Divorced">Divorced</option>
+                            <option value="Single">Single</option>
+                            <option value="Other">Other</option>
+                          </select>
+                        </div>
+                      </div>
+
+                      <div class="cell-sm-6">
+                        <div class="form-group offset-sm-top-20">
+                          <label class="form-label form-label-outside" for="git-3-mailform-phone"> Spouse/Partner Title :</label>
+                          <select class="form-control select2-hidden-accessible" name="spousetitle" id="rd-mailform-select" data-placeholder="Select an option" data-minimum-results-for-search="Infinity" tabindex="-1" aria-hidden="true">
+                            <option value="Mr">Mr</option>
+                            <option value="Mrs">Mrs</option>
+                            <option value="Ms">Ms</option>
+                            <option value="Dr">Dr</option>
+                            <option value="Hon">Hon</option>
+                            <option value="Sir">Sir</option>
+                            <option value="Lady">Lady</option>
+                          </select>
+                        </div>
+                      </div>
+
+                      <div class="cell-sm-6">
+                        <div class="form-group offset-sm-top-20">
+                          <label class="form-label form-label-outside" for="git-3-mailform-phone">First Name :</label>
+                          <input class="form-control bg-white" id="git-3-mailform-phone" type="text" name="spousefirstname">
+                        </div>
+                      </div>
+
+                      <div class="cell-sm-6">
+                        <div class="form-group offset-sm-top-20">
+                          <label class="form-label form-label-outside" for="git-3-mailform-phone">Surname :</label>
+                          <input class="form-control bg-white" id="git-3-mailform-phone" type="text" name="spousename">
+                        </div>
+                      </div>
+
+                      <div class="cell-sm-12 offset-md-top-30">
+                        
+                        <div class="text-subline offset-top-10"></div>
+                        <div class="form-group">
+                          <p style="text-align: justify;">I have read the <a href="https://abcdrive.info/assistance/terms-conditions/" target="_blank">Terms and Conditions</a> of "ABC Drive", I hereby consent to ABC BPO Ltd (the Data Controller) using, processing, communicating and sharing my personal data to the ABC Group of Companies for marketing and promotional purposes relating to the "ABC Drive" Customer Loyalty Program. I confirm that the information provided is true, accurate and complete.<br/><span class="wpcf7-form-control-wrap TnC"><input type="checkbox" name="TnC" value="1" class="wpcf7-form-control wpcf7-acceptance" checked="checked" aria-invalid="false"></span> <span style="color:red"><b>Please untick if you do not wish to proceed.</b></span></p>
+                        </div>
+                      </div>
+
+                    </div>
+                    <div class="offset-top-24 text-center">
+                      <button class="btn btn-primary" type="submit">Update Data</button>
+                    </div>
+                  </form>
+              </div>
+            </div>
+          </div>
+        </section>
+
+      <?php
+        }
+      ?>
         <!-- What i Do-->
         <section class="section-98 section-sm-110 context-dark" style="background: #191919 url(images/index-09.png);">
           <div class="shell">
