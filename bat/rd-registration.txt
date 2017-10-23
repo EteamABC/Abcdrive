@@ -1,0 +1,70 @@
+<pre>
+From: <!-- #{familyname} --> <!-- #{firstname} --> <a href="mailto:<!-- #{memberemail} -->"><!-- #{memberemail} --></a>
+Subject: ABC Drive Registration
+
+Message Body:
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXSTARTREGXX
+xxxStartMemberTitlexxx:<!-- #{title} -->zzzEndMemberTitlezzz
+xxxStartFamilynamexxx:<!-- #{familyname} -->zzzEndFamilynamezzz
+xxxStartFirstnamexxx:<!-- #{firstname} -->zzzEndFirstnamezzz
+xxxStartOthernamesxxx:<!-- #{othername} -->zzzEndOthernameszzz
+xxxStartMobilephonexxx:<!-- #{mobilephone} -->zzzEndMobilephonezzz
+xxxStartPhonexxx:<!-- #{homephone} -->zzzEndPhonezzz
+xxxStartPhone2xxx:<!-- #{officephone} -->zzzEndPhone2zzz
+xxxStartmenubdaydayxxx:<!-- #{menubdayday} -->zzzEndmenubdaydayzzz
+xxxStartmenubdaymonthxxx:<!-- #{menubdaymonth} -->zzzEndmenubdaymonthzzz
+xxxStartmenubdayyearxxx:<!-- #{menubdayyear} -->zzzEndmenubdayyearzzz
+xxxStartProofofIDxxx:<!-- #{proofofiD} -->zzzEndProofofIDzzz
+xxxStartIDNoxxx:<!-- #{idno} -->zzzEndIDNozzz
+xxxStartmemberemailxxx:<!-- #{memberemail} -->zzzEndmemberemailzzz
+xxxStartAdLine1xxx:<!-- #{address} -->zzzEndAdLine1zzz
+xxxStartAdLine2xxx:<!-- #{address2} -->zzzEndAdLine2zzz
+xxxStartmenusuburbxxx:<!-- #{area} -->zzzEndmenusuburbzzz
+xxxStartmenucityxxx:<!-- #{menucity} -->zzzEndmenucityzzz
+xxxStartjobtitlexxx:<!-- #{profession} -->zzzEndjobtitlezzz
+xxxStartcompanyxxx:<!-- #{companyname} -->zzzEndcompanyzzz
+xxxStartincomexxx:<!-- #{income} -->zzzEndincomezzz
+xxxStartIndustryclassxxx:<!-- #{industry} -->zzzEndIndustryclasszzz
+xxxStartBrand1xxx:<!-- #{brand1} -->zzzEndBrand1zzz
+xxxStartModel1xxx:<!-- #{model1} -->zzzEndModel1zzz
+xxxStartPlate1xxx:<!-- #{plate1} -->zzzEndPlate1zzz
+xxxStartCarownType1xxx:<!-- #{carownertype1} -->zzzEndCarownType1zzz
+xxxStartBrand2xxx:<!-- #{brand2} -->zzzEndBrand2zzz
+xxxStartModel2xxx:<!-- #{model2} -->zzzEndModel2zzz
+xxxStartPlate2xxx:<!-- #{plate2} -->zzzEndPlate2zzz
+xxxStartCarownType2xxx:<!-- #{carownertype2} -->zzzEndCarownType2zzz
+xxxStartmenumstatusxxx:<!-- #{maritalstatus} -->zzzEndmenumstatuszzz
+xxxStartspouseTitlexxx:<!-- #{spousetitle} -->zzzEndspouseTitlezzz
+xxxStartspousefirstnamexxx:<!-- #{spousefirstname} -->zzzEndspousefirstnamezzz
+xxxStartspousenamexxx:<!-- #{spousename} -->zzzEndspousenamezzz
+xxxStartnumbkidxxx:<!-- #{numkid} -->zzzEndnumbkidzzz
+xxxStartFirstNameKid1xxx:<!-- #{FirstNameKid1} -->zzzEndFirstNameKid1zzz
+xxxStartGenderKid1xxx:<!-- #{GenderKid1} -->zzzEndGenderKid1zzz
+xxxStartmenubdaydayKid1xxx:<!-- #{menubdaydayKid1} -->zzzEndmenubdaydayKid1zzz
+xxxStartmenubdaymonthKid1xxx:<!-- #{menubdaymonthKid1} -->zzzEndmenubdaymonthKid1zzz
+xxxStartmenubdayyearKid1xxx:<!-- #{menubdayyearKid1} -->zzzEndmenubdayyearKid1zzz
+xxxStartFirstNameKid2xxx:<!-- #{FirstNameKid2} -->zzzEndFirstNameKid2zzz
+xxxStartGenderKid2xxx:<!-- #{GenderKid2} -->zzzEndGenderKid2zzz
+xxxStartmenubdaydayKid2xxx:<!-- #{menubdaydayKid2} -->zzzEndmenubdaydayKid2zzz
+xxxStartmenubdaymonthKid2xxx:<!-- #{menubdaymonthKid2} -->zzzEndmenubdaymonthKid2zzz
+xxxStartmenubdayyearKid2xxx:<!-- #{menubdayyearKid2} -->zzzEndmenubdayyearKid2zzz
+xxxStartFirstNameKid3xxx:<!-- #{FirstNameKid3} -->zzzEndFirstNameKid3zzz
+xxxStartGenderKid3xxx:<!-- #{GenderKid3} -->zzzEndGenderKid3zzz
+xxxStartmenubdaydayKid3xxx:<!-- #{menubdaydayKid3} -->zzzEndmenubdaydayKid3zzz
+xxxStartmenubdaymonthKid3xxx:<!-- #{menubdaymonthKid3} -->zzzEndmenubdaymonthKid3zzz
+xxxStartmenubdayyearKid3xxx:<!-- #{menubdayyearKid3} -->zzzEndmenubdayyearKid3zzz
+xxxStartFirstNameKid4xxx:<!-- #{FirstNameKid4} -->zzzEndFirstNameKid4zzz
+xxxStartGenderKid4xxx:<!-- #{GenderKid4} -->zzzEndGenderKid4zzz
+xxxStartmenubdaydayKid4xxx:<!-- #{menubdaydayKid4} -->zzzEndmenubdaydayKid4zzz
+xxxStartmenubdaymonthKid4xxx:<!-- #{menubdaymonthKid4} -->zzzEndmenubdaymonthKid4zzz
+xxxStartmenubdayyearKid4xxx:<!-- #{menubdayyearKid4} -->zzzEndmenubdayyearKid4zzz
+xxxStartlngxxx:<!-- #{lng} -->zzzEndlngzzz
+xxxStartOriginxxx:WebsitezzzEndOriginzzz
+XXENDREGXX
+
+</pre>
