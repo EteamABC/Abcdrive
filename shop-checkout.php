@@ -9,6 +9,10 @@
         <!-- RD Navbar Transparent-->
         <div class="rd-navbar-wrap">
           <?php include('menu.php'); ?>
+          <?php 
+            //check if already logged in move to home page
+            if( empty($_SESSION['username']) ){ header('Location: login-rewards.php'); } 
+          ?>
         </div>
       </header>
       <!-- Classic Breadcrumbs-->
