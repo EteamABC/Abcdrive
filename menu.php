@@ -1,3 +1,5 @@
+<?php include 'bat/includes/config.php'; ?>
+
           <nav class="rd-navbar rd-navbar-default rd-navbar-light" data-md-device-layout="rd-navbar-fixed" data-lg-device-layout="rd-navbar-static" data-lg-auto-height="true" data-md-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-stick-up="true">
             <div class="rd-navbar-inner">
               <!-- RD Navbar Panel-->
@@ -89,131 +91,37 @@
                           </div>
                         </div>
                       </li>
-                      <li><a href="portfolio-grid-3-columns.html"><span>Rewards</span></a>
+                      <li><a href="#"><span>Rewards</span></a>
                         <ul class="rd-navbar-dropdown">
                           <li><a href="Rewards.php"><span class="text-middle">Merchandise Rewards</span></a>
-                            
                           </li>
-                          <li><a href="#"><span class="text-middle">Grid Layout</span></a>
-                            <ul class="rd-navbar-dropdown">
-                              <li><a href="portfolio-grid-3-columns.html"><span class="text-middle">Horizontal</span></a>
-                              </li>
-                              <li><a href="portfolio-grid-3-columns-vertical.html"><span class="text-middle">Vertical</span></a>
-                              </li>
-                            </ul>
-                          </li>
-                          <li><a href="#"><span class="text-middle">Masonry Layout</span></a>
-                            <ul class="rd-navbar-dropdown">
-                              <li><a href="portfolio-masonry-3-columns.html"><span class="text-middle">Horizontal</span></a>
-                              </li>
-                              <li><a href="portfolio-masonry-3-columns-vertical.html"><span class="text-middle">Vertical</span></a>
-                              </li>
-                            </ul>
-                          </li>
-                          <li><a href="#"><span class="text-middle">Wide Layout</span></a>
-                            <ul class="rd-navbar-dropdown">
-                              <li><a href="portfolio-wide-3-columns.html"><span class="text-middle">Horizontal</span></a>
-                              </li>
-                              <li><a href="portfolio-wide-3-columns-vertical.html"><span class="text-middle">Vertical</span></a>
-                              </li>
-                            </ul>
-                          </li>
-                          <li><a href="#"><span class="text-middle">Fullwidth Layout</span></a>
-                            <ul class="rd-navbar-dropdown">
-                              <li><a href="portfolio-fullwidth-3-columns.html"><span class="text-middle">3 Columns</span></a>
-                              </li>
-                              <li><a href="portfolio-fullwidth-4-columns.html"><span class="text-middle">4 Columns</span></a>
-                              </li>
-                              <li><a href="portfolio-fullwidth-5-columns.html"><span class="text-middle">5 Columns</span></a>
-                              </li>
-                            </ul>
-                          </li>
-                          <li><a href="portfolio-fullscreen-3-columns.html"><span class="text-middle">Fullscreen Layout</span></a>
-                          </li>
-                          <li><a href="#"><span class="text-middle">Custom Effects</span></a>
-                            <ul class="rd-navbar-dropdown">
-                              <li><a href="portfolio-classic-effect.html"><span class="text-middle">Classic Effect</span></a>
-                              </li>
-                              <li><a href="portfolio-zoe-effect.html"><span class="text-middle">Zoe Effect</span></a>
-                              </li>
-                              <li><a href="portfolio-winston-effect.html"><span class="text-middle">Winston Effect</span></a>
-                              </li>
-                              <li><a href="portfolio-josip-effect.html"><span class="text-middle">Josip Effect</span></a>
-                              </li>
-                              <li><a href="portfolio-janes-effect.html"><span class="text-middle">Janes Effect</span></a>
-                              </li>
-                              <li><a href="portfolio-apollo-effect.html"><span class="text-middle">Apollo Effect</span></a>
-                              </li>
-                            </ul>
-                          </li>
-                          <li><a href="#"><span class="text-middle">Single Project</span></a>
-                            <ul class="rd-navbar-dropdown">
-                              <li><a href="portfolio-single-project-default.html"><span class="text-middle">Default</span></a>
-                              </li>
-                              <li><a href="portfolio-single-project-variant-2.html"><span class="text-middle">Variant 2</span></a>
-                              </li>
-                              <li><a href="portfolio-single-project-variant-3.html"><span class="text-middle">Variant 3</span></a>
-                              </li>
-                            </ul>
-                          </li>
-                        </ul>
-                      </li>
 
-                      <li><a href="blog-default-left-sidebar.html"><span>My Account</span></a>
+                          <li><a href="service-rewards.php"><span class="text-middle">Service Rewards</span></a>
+                          </li>
+                          
+                        
+                          <li><a href="#"><span class="text-middle">External Rewards</span></a>
+                          </li>
+                          </ul>
+                          </li>
+                          
+
+                      <li><a href="#"><span>My Account</span></a>
                         <ul class="rd-navbar-dropdown">
 
-                          <li><a href="login.php"><span class="text-middle">Login</span></a> 
-                          <li><a href="#"><span class="text-middle">Registration Form</span></a>
+                          <?php if (empty($_SESSION['username'])) { ?>
+                            <li><a href="login.php"><span class="text-middle">Login</span></a> 
+                          <?php } else { ?>
+                            <li><a href="logout.php"><span class="text-middle">Logout</span></a>
+                          <?php } ?>
+                          <li><a href="registration-form.php"><span class="text-middle">Registration Form</span></a>
                           <li><a href="my-drive-account.php"><span class="text-middle">My Drive Account</span></a> 
                             
                           </li>
                         </ul>
                       </li>
 
-                      <li><a href="shop-grid-left-sidebar.html"><span>Shop</span></a>
-                        <ul class="rd-navbar-dropdown">
-                          <li><a href="#"><span class="text-middle">Grid View</span></a>
-                            <ul class="rd-navbar-dropdown">
-                              <li><a href="shop-grid-no-sidebar.html"><span class="text-middle">No Sidebar</span></a>
-                              </li>
-                              <li><a href="shop-grid-left-sidebar.html"><span class="text-middle">Left Sidebar</span></a>
-                              </li>
-                              <li><a href="shop-grid-right-sidebar.html"><span class="text-middle">Right Sidebar</span></a>
-                              </li>
-                            </ul>
-                          </li>
-                          <li><a href="#"><span class="text-middle">List View</span></a>
-                            <ul class="rd-navbar-dropdown">
-                              <li><a href="shop-list-no-sidebar.html"><span class="text-middle">No Sidebar</span></a>
-                              </li>
-                              <li><a href="shop-list-left-sidebar.html"><span class="text-middle">Left Sidebar</span></a>
-                              </li>
-                              <li><a href="shop-list-right-sidebar.html"><span class="text-middle">Right Sidebar</span></a>
-                              </li>
-                            </ul>
-                          </li>
-                          <li><a href="#"><span class="text-middle">Single Product</span></a>
-                            <ul class="rd-navbar-dropdown">
-                              <li><a href="shop-single-product-no-sidebar.html"><span class="text-middle">No Sidebar</span></a>
-                              </li>
-                              <li><a href="shop-single-product-left-sidebar.html"><span class="text-middle">Left Sidebar</span></a>
-                              </li>
-                              <li><a href="shop-single-product-right-sidebar.html"><span class="text-middle">Right Sidebar</span></a>
-                              </li>
-                            </ul>
-                          </li>
-                          <li><a href="shop-cart.html"><span class="text-middle">Cart View</span></a>
-                          </li>
-                          <li><a href="shop-checkout.html"><span class="text-middle">Checkout</span></a>
-                            <ul class="rd-navbar-dropdown">
-                              <li><a href="shop-checkout.html"><span class="text-middle">Default</span></a>
-                              </li>
-                              <li><a href="shop-checkout-variant-2.html"><span class="text-middle">Variant 2</span></a>
-                              </li>
-                            </ul>
-                          </li>
-                        </ul>
-                      </li>
+                      
                       <li><a href="contact-us.php"><span>Contact Us</span></a>
                       </li>
                     
