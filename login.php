@@ -46,15 +46,18 @@ if(isset($_POST['submit'])){
     <script src="js/html5shiv.min.js"></script>
     <![endif]-->
   </head>
-  <body>
+   <body>
     <!-- Page-->
     <div class="page text-center">
-      <!-- Page Content-->
-      <main class="page-content bg-shark-radio">
-        <div class="one-page">
-          <div class="one-page-header">
+      <div id="page">
+        <canvas id="bg-animation">
+          <!-- Page Content-->
+        </canvas>
+        <main class="page-content context-dark" style="background: url(images/backgrounds/background-black-1920X1024.jpg) 0/cover no-repeat;">
+          <div class="one-page">
+            <div class="one-page-header">
             <!--Navbar Brand-->
-            <div class="rd-navbar-brand"><a href="index.html"><img style='margin-top: -5px;margin-left: -15px;' width='138' height='31' src='images/intense/logo-light.png' alt=''/></a></div>
+            <div class="rd-navbar-brand"><a href="index.php"><img style='margin-top: -5px;margin-left: -15px;' width='138' height='31' src='images\abcdrive\Logo\abc-drive-logo-01.png' alt=''/></a></div>
           </div>
           <!-- Login-->
           <section>
@@ -122,7 +125,7 @@ if(isset($_POST['submit'])){
             </div>
           </section>
           <div class="one-page-footer">
-            <p class="small" style="color: rgba(255,255,255, 0.3);">Intense &copy; <span id="copyright-year"></span> . <a href="privacy.html">Privacy Policy</a></p>
+            <p class="small" style="color: rgba(255,255,255, 0.3);">ABC BPO LTD &copy; <span id="copyright-year"></span> . <a href="privacy.html">Privacy Policy</a></p>
           </div>
         </div>
       </main>
