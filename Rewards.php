@@ -67,7 +67,7 @@
         }
         else
         {
-         $page = 2;
+         $page = 1;
         }
 
         $start_from = ($page-1)*$record_per_page;
@@ -93,7 +93,7 @@
             <nav>
               <ul class="pagination pagination-sm">
             <?php
-              $page_query = "SELECT * FROM rewards";
+              $page_query = "SELECT * FROM rewards WHERE category='merchandise'";
               $page_result = mysqli_query($mysqli, $page_query);
               $total_records = mysqli_num_rows($page_result);
               $total_pages = ceil($total_records/$record_per_page);
