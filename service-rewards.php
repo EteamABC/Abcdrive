@@ -107,7 +107,7 @@
               $end_loop = $start_loop + 2;
               if($page > 1)
               {
-               echo '<li><a href="rewards.php?page='.($page - 1).'" aria-label="Previous"><span class="mdi mdi-chevron-double-left" aria-hidden="true"></span></a></li>';
+               echo '<li><a href="service-rewards.php?page='.($page - 1).'" aria-label="Previous"><span class="mdi mdi-chevron-double-left" aria-hidden="true"></span></a></li>';
                //echo "<a href='pagination.php?page=".($page - 1)."'><<</a>";
               }
               for($i=1; $i<=$end_loop; $i++)
@@ -121,7 +121,7 @@
               }
               if($page <= $end_loop)
               {
-               echo '<li><a href="rewards.php?page='.$total_pages.'" aria-label="Next"><span class="mdi mdi-chevron-double-right" aria-hidden="true"></span></a></li>';
+               echo '<li><a href="service-rewards.php?page='.$total_pages.'" aria-label="Next"><span class="mdi mdi-chevron-double-right" aria-hidden="true"></span></a></li>';
                //echo "<a href='pagination.php?page=".$total_pages."'>Last</a>";
               }
             ?>
