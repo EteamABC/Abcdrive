@@ -117,7 +117,7 @@
                     {
                         $active = 'class="active"';        
                     }
-               echo '<li '.$active.'><a href="rewards.php?page='.$i.'">'.$i.'</a></li>';
+               echo '<li '.$active.'><a href="service-rewards.php?page='.$i.'">'.$i.'</a></li>';
               }
               if($page <= $end_loop)
               {
