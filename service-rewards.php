@@ -23,6 +23,7 @@
               <ul class="list-inline list-inline-dashed p">
                 <li><a href="index.php">Home</a></li>
                 <li><a href="service-rewards.php">Rewards</a></li>
+                <li><a href="service-rewards.php">Service Rewards</a></li>
                 </li>
               </ul>
             </div>
@@ -244,7 +245,7 @@
                       <!-- Product-->
                       <div class="product product-list product-list-wide unit unit-sm-horizontal unit-xs-top">
                         <!-- Product Image-->
-                        <div class="product-image unit-left"><img class="img-responsive product-image-area" src="images/shop/product-04-270x360.png" alt="">
+                        <div class="product-image unit-left"><img class="img-responsive product-image-area" src="images\abcdrive\Service\oil-service-package.png" alt="">
                           <!-- Product Thumnails-->
                           
                           <!-- Product Label-->
@@ -294,7 +295,7 @@
                               </div>
                               <div class="form-group product-number">
                               </div>
-                              <!-- Product Add To cart--><a class="btn btn-sm btn-picton-blue btn-icon btn-icon-left product-btn offset-top-20 offset-xs-top-0 offset-lg-top-20 reveal-lg-block" href="shop-checkout.php">Order</a>
+                              <!-- Product Add To cart--><a class="btn btn-sm btn-picton-blue btn-icon btn-icon-left product-btn offset-top-20 offset-xs-top-0 offset-lg-top-20 reveal-lg-block" href="shop-checkout.php">Redeem</a>
                             </div>
                           </div>
                         </div>
@@ -355,7 +356,7 @@
                               <div class="form-group product-number">
                                 
                               </div>
-                              <!-- Product Add To cart--><a class="btn btn-sm btn-picton-blue btn-icon btn-icon-left product-btn offset-top-20 offset-xs-top-0 offset-lg-top-20 reveal-lg-block" href="shop-checkout.php">Order</a>
+                              <!-- Product Add To cart--><a class="btn btn-sm btn-picton-blue btn-icon btn-icon-left product-btn offset-top-20 offset-xs-top-0 offset-lg-top-20 reveal-lg-block" href="shop-checkout.php">Redeem</a>
                             </div>
                           </div>
                         </div>
@@ -551,7 +552,7 @@
                       <!-- Product-->
                       <div class="product product-list product-list-wide unit unit-sm-horizontal unit-xs-top">
                         <!-- Product Image-->
-                        <div class="product-image unit-left"><img class="img-responsive product-image-area" src="images\abcdrive\Photos\nissan-micra-ak13-side.png" alt="">
+                        <div class="product-image unit-left"><img class="img-responsive product-image-area" src="images\abcdrive\Service\delivery & collect.png" alt="">
                           <!-- Product Thumnails-->
                           
                           <!-- Product Label-->
@@ -610,7 +611,7 @@
                       <!-- Product-->
                       <div class="product product-list product-list-wide unit unit-sm-horizontal unit-xs-top">
                         <!-- Product Image-->
-                        <div class="product-image unit-left"><img class="img-responsive product-image-area" src="images/shop/product-04-270x360.png" alt="">
+                        <div class="product-image unit-left"><img class="img-responsive product-image-area" src="images\abcdrive\Service\vehicle-replacement.png" alt="">
                           <!-- Product Thumnails-->
                           
                           <!-- Product Label-->
@@ -660,7 +661,7 @@
                               </div>
                               <div class="form-group product-number">
                               </div>
-                              <!-- Product Add To cart--><a class="btn btn-sm btn-picton-blue btn-icon btn-icon-left product-btn offset-top-20 offset-xs-top-0 offset-lg-top-20 reveal-lg-block" href="shop-checkout.php">Order</a>
+                              <!-- Product Add To cart--><a class="btn btn-sm btn-picton-blue btn-icon btn-icon-left product-btn offset-top-20 offset-xs-top-0 offset-lg-top-20 reveal-lg-block" href="shop-checkout.php">Redeem</a>
                             </div>
                           </div>
                         </div>
@@ -670,7 +671,7 @@
                       <!-- Product-->
                       <div class="product product-list product-list-wide unit unit-sm-horizontal unit-xs-top">
                         <!-- Product Image-->
-                        <div class="product-image unit-left"><img class="img-responsive product-image-area" src="images/shop/product-05-270x360.png" alt="">
+                        <div class="product-image unit-left"><img class="img-responsive product-image-area" src="images\abcdrive\Service\vehicle-replacement.png" alt="">
                           <!-- Product Thumnails-->
                           
                           <!-- Product Label-->
@@ -721,7 +722,7 @@
                               <div class="form-group product-number">
                                 
                               </div>
-                              <!-- Product Add To cart--><a class="btn btn-sm btn-picton-blue btn-icon btn-icon-left product-btn offset-top-20 offset-xs-top-0 offset-lg-top-20 reveal-lg-block" href="shop-checkout.php">Order</a>
+                              <!-- Product Add To cart--><a class="btn btn-sm btn-picton-blue btn-icon btn-icon-left product-btn offset-top-20 offset-xs-top-0 offset-lg-top-20 reveal-lg-block" href="shop-checkout.php">Redeem</a>
                             </div>
                           </div>
                         </div>
