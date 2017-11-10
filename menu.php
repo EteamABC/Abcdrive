@@ -127,8 +127,8 @@
                       </li>
                     
                 <!--RD Navbar Search-->
-                <div class="rd-navbar-search"><a class="rd-navbar-search-toggle mdi" data-rd-navbar-toggle=".rd-navbar-inner,.rd-navbar-search" href="#"><span></span></a>
-                  <form class="rd-navbar-search-form search-form-icon-right rd-search" action="search-results.html" method="GET">
+                <div class="rd-navbar-search"><a class="rd-navbar-search-toggle mdi" data-rd-navbar-toggle=".rd-navbar-inner,.rd-navbar-search" href="search-results.php"><span></span></a>
+                  <form class="rd-navbar-search-form search-form-icon-right rd-search" action="search-results.php" method="GET">
                     <div class="form-group">
                       <label class="form-label" for="rd-navbar-search-form-input">Type and hit enter...</label>
                       <input class="rd-navbar-search-form-input form-control form-control-gray-lightest" id="rd-navbar-search-form-input" type="text" name="s" autocomplete="off"/>
@@ -136,30 +136,7 @@
                     <!--button(type="submit").rd-navbar-search-form-submit.mdi.mdi-magnify-->
                   </form>
                   <!--RD Navbar shop-->
-                <div class="rd-navbar-cart-wrap"><a class="rd-navbar-cart mdi" href="#" data-rd-navbar-toggle=".rd-navbar-cart-dropdown"><span></span></a>
-                  <div class="rd-navbar-cart-dropdown">
-                    <ul class="rd-navbar-list-products">
-                      <li>
-                        <div class="rd-navbar-product-image"><img src="images/shop/product-01-60x60.png" alt=""/></div>
-                        <div class="rd-navbar-product-caption">
-                          <h6 class="rd-navbar-product-title"><a href="shop-single-product-left-sidebar.html">Fashion model new</a></h6>
-                          <p class="rd-navbar-product-price">$129.99</p>
-                        </div><a class="mdi mdi-window-close rd-navbar-product-remove" href="#"></a>
-                      </li>
-                      <li>
-                        <div class="rd-navbar-product-image"><img src="images/shop/product-01-60x60-3.png" alt=""/></div>
-                        <div class="rd-navbar-product-caption">
-                          <h6 class="rd-navbar-product-title"><a href="shop-single-product-left-sidebar.html">Fashion model new 2</a></h6>
-                          <p class="rd-navbar-product-price">$69.99</p>
-                        </div><a class="mdi mdi-window-close rd-navbar-product-remove" href="#"></a>
-                      </li>
-                    </ul>
-                    <div class="rd-navbar-cart-total">
-                      <h6 class="rd-navbar-cart-total-title">Cart subtotal</h6><span class="rd-navbar-cart-total-price">$199.98</span>
-                    </div>
-                    <div class="text-center"><a class="btn btn-rect btn-sm btn-primary btn-icon btn-icon-left" href="shop-cart.html"><span class="icon mdi mdi-lock"></span>Go to checkout</a></div>
-                  </div>
-                </div>
+                
                 <!--RD Navbar shop-->
                 
               
