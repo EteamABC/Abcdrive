@@ -1,6 +1,6 @@
 <footer class="section-34 page-footer bg-gray-base context-dark">
         <div class="shell">
-          <div class="footer-brand"><a href="index.html"><img style='margin-top: -5px;margin-left: -15px;' width='138' height='31' src='images\abcdrive\logo\abc-drive-logo-01.png' alt=''/></a></div>
+          <div class="footer-brand"><a href="index.html"><img style='margin-top: -5px;margin-left: -15px;' width='138' height='31' src='images\abcdrive\logo\drive-logo-02.png' alt=''/></a></div>
           <p class="small text-darker">ABCBPO LTD &copy; <span id="copyright-year"></span> . <a href="privacy.html">All rights reserved</a>
           </p>
         </div>
