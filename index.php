@@ -7,7 +7,7 @@
     <!-- Page-->
     <div class="page text-center">
       <div class="page-loader page-loader-variant-1">
-        <div><img class='img-responsive' style='margin-top: -20px;margin-left: -18px;' width='330' height='67' src='images\abcdrive\logo\abc-drive-logo-01.png' alt=''/>
+        <div><img class='img-responsive' style='margin-top: -20px;margin-left: -18px;' width='330' height='67' src='images\abcdrive\logo\drive-logo-02.png' alt=''/>
           <div class="offset-top-41 text-center">
             <div class="spinner"></div>
           </div>

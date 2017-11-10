@@ -7,7 +7,7 @@
                 <!-- RD Navbar Toggle-->
                 <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar, .rd-navbar-nav-wrap"><span></span></button>
                 <!--Navbar Brand-->
-                <div class="rd-navbar-brand"><a href="index.php"><img style='margin-top: -5px;margin-left: -15px;' width='138' height='31' src='images\abcdrive\Logo\abc-drive-logo-01.jpg' alt=''/></a></div>
+                <div class="rd-navbar-brand"><a href="index.php"><img style='margin-top: -5px;margin-left: -15px;' width='138' height='31' src='images\abcdrive\Logo\drive-logo.png' alt=''/></a></div>
               </div>
               <div class="rd-navbar-menu-wrap">
                 <div class="rd-navbar-nav-wrap">
@@ -115,7 +115,8 @@
                             <li><a href="logout.php"><span class="text-middle">Logout</span></a>
                           <?php } ?>
                           <li><a href="registration-form.php"><span class="text-middle">Registration Form</span></a>
-                          <li><a href="my-drive-account.php"><span class="text-middle">My Drive Account</span></a> 
+                          <li><a href="my-drive-account.php"><span class="text-middle">My Drive Account</span></a>
+                          
                             
                           </li>
                         </ul>
