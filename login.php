@@ -57,7 +57,7 @@ if(isset($_POST['submit'])){
           <div class="one-page">
             <div class="one-page-header">
             <!--Navbar Brand-->
-            <div class="rd-navbar-brand"><a href="index.php"><img style='margin-top: -5px;margin-left: -15px;' width='138' height='31' src='images\abcdrive\Logo\abc-drive-logo-01.png' alt=''/></a></div>
+            <div class="rd-navbar-brand"><a href="index.php"><img style='margin-top: -5px;margin-left: -15px;' width='138' height='31' src='images\abcdrive\Logo\drive-logo-02.png' alt=''/></a></div>
           </div>
           <!-- Login-->
           <section>
