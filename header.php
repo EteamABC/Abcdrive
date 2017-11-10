@@ -1,6 +1,6 @@
   <head>
     <!-- Site Title-->
-    <title>Intense - the best HTML theme at Templatemonster.com</title>
+    <title>DRIVE</title>
     <meta charset="utf-8">
     <meta name="format-detection" content="telephone=no">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
