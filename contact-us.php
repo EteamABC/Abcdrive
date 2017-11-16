@@ -25,8 +25,7 @@
             </div>
             <div class="offset-top-0 offset-sm-top-10 cell-lg-5 offset-lg-top-0 small cell-lg-push-3 text-lg-right">
               <ul class="list-inline list-inline-dashed p">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#">Pages</a></li>
+                <li><a href="index.php">Home</a></li>
                 <li>Contact Us
                 </li>
               </ul>

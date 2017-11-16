@@ -21,8 +21,7 @@
             </div>
             <div class="offset-top-0 offset-sm-top-10 cell-lg-5 offset-lg-top-0 small cell-lg-push-3 text-lg-right">
               <ul class="list-inline list-inline-dashed p">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#">Pages</a></li>
+                <li><a href="index.php">Home</a></li>
                 <li>FAQ's
                 </li>
               </ul>
@@ -45,7 +44,7 @@
         <section class="section-66 section-sm-top-110 section-lg-bottom-0">
           <div class="shell">
             <div class="range range-xs-center">
-              <div class="cell-lg-6"><img class="veil reveal-lg-inline-block" src="images/pages/about-us-01-470x770.png" width="470" height="770" alt=""></div>
+              <div class="cell-lg-6"><img class="veil reveal-lg-inline-block" src="images\abcdrive\People\woman-2.png" width="470" height="770" alt=""></div>
               <div class="cell-sm-9 cell-lg-6 offset-top-0">
                 <h1 class="text-darker text-lg-left">General Questions</h1>
                 <hr class="divider bg-mantis hr-lg-left-0">

@@ -7,7 +7,7 @@
                 <!-- RD Navbar Toggle-->
                 <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar, .rd-navbar-nav-wrap"><span></span></button>
                 <!--Navbar Brand-->
-                <div class="rd-navbar-brand"><a href="index.php"><img style='margin-top: -5px;margin-left: -15px;' width='138' height='31' src='images\abcdrive\Logo\drive-logo.png' alt=''/></a></div>
+                <div class="rd-navbar-brand"><a href="index.php"><img style='margin-top: -5px;margin-left: -15px;' width='178' height='45' src='images\abcdrive\Logo\drive-logo.png' alt=''/></a></div>
               </div>
               <div class="rd-navbar-menu-wrap">
                 <div class="rd-navbar-nav-wrap">
@@ -43,57 +43,25 @@
                       </li>
 
                       <li><a href="#"><span>Offerings</span></a>
-                        <div class="rd-navbar-megamenu">
-                          <div class="row">
-                            <ul class="col-lg-3">
-                              <li><a href="404.html"><span class="rd-navbar-icon mdi mdi-bullhorn"></span><span class="text-middle">404 Page</span></a></li>
-                              <li><a href="503.html"><span class="rd-navbar-icon mdi mdi-bullhorn"></span><span class="text-middle">503 Page</span></a></li>
-                              <li><a href="about-us.html"><span class="rd-navbar-icon mdi mdi-account-multiple"></span><span class="text-middle">About Us</span></a></li>
-                              <li><a href="about-us-variant-2.html"><span class="rd-navbar-icon mdi mdi-account-multiple"></span><span class="text-middle">About Us v2</span></a></li>
-                              <li><a href="about-me.html"><span class="rd-navbar-icon mdi mdi-account-convert"></span><span class="text-middle">About Me</span></a></li>
-                              <li><a href="about-me-variant-2.html"><span class="rd-navbar-icon mdi mdi-account-convert"></span><span class="text-middle">About Me v2</span></a></li>
-                              <li><a href="services.html"><span class="rd-navbar-icon mdi mdi-folder-outline"></span><span class="text-middle">Services</span></a></li>
-                              <li><a href="our-team.html"><span class="rd-navbar-icon mdi mdi-account-switch"></span><span class="text-middle">Our Team</span></a></li>
+                        <ul class="rd-navbar-dropdown">
+                          <li><a href="#"><span class="text-middle">Promoters</span></a>
+                            <ul class="rd-navbar-dropdown">
+                              <li><a href="clients.php"><span class="text-middle">Sales</span></a>
+                              </li>
+                              <li><a href="aftersales.php"><span class="text-middle">Aftersales</span></a>
+                              </li>
                             </ul>
-                            <ul class="col-lg-3">
-                              <li><a href="our-team-variant-2.html"><span class="rd-navbar-icon mdi mdi-account-switch"></span><span class="text-middle">Our Team v2</span></a></li>
-                              <li><a href="team-member.html"><span class="rd-navbar-icon mdi mdi-account-box-outline"></span><span class="text-middle">Team Member</span></a></li>
-                              <li><a href="team-member-variant-2.html"><span class="rd-navbar-icon mdi mdi-account-box-outline"></span><span class="text-middle">Team Member v2</span></a></li>
-                              <li><a href="careers.html"><span class="rd-navbar-icon mdi mdi-account-check"></span><span class="text-middle">Careers</span></a></li>
-                              <li><a href="categories.html"><span class="rd-navbar-icon mdi mdi-filter-variant"></span><span class="text-middle">Categories</span></a></li>
-                              <li><a href="faq.html"><span class="rd-navbar-icon mdi mdi-help-circle"></span><span class="text-middle">Faq</span></a></li>
-                              <li><a href="faq-variant-2.html"><span class="rd-navbar-icon mdi mdi-help-circle"></span><span class="text-middle">Faq v2</span></a></li>
-                              <li><a href="faq-variant-3.html"><span class="rd-navbar-icon mdi mdi-help-circle"></span><span class="text-middle">Faq v3</span></a></li>
-                              <li><a href="faq-variant-4.html"><span class="rd-navbar-icon mdi mdi-help-circle"></span><span class="text-middle">Faq v4</span></a></li>
-                            </ul>
-                            <ul class="col-lg-3">
-                              <li><a href="contact-me.html"><span class="rd-navbar-icon mdi mdi-contact-mail"></span><span class="text-middle">Contact Me</span></a></li>
-                              <li><a href="contact-us.html"><span class="rd-navbar-icon mdi mdi-map-marker-circle"></span><span class="text-middle">Contact Us</span></a></li>
-                              <li><a href="contact-us-variant-2.html"><span class="rd-navbar-icon mdi mdi-map-marker-circle"></span><span class="text-middle">Contact Us v2</span></a></li>
-                              <li><a href="get-in-touch.html"><span class="rd-navbar-icon mdi mdi-map-marker-circle"></span><span class="text-middle">Get In Touch</span></a></li>
-                              <li><a href="contact-us-variant-3.html"><span class="rd-navbar-icon mdi mdi-map-marker-circle"></span><span class="text-middle">Contact Us v3</span></a></li>
-                              <li><a href="sitemap.html"><span class="rd-navbar-icon mdi mdi-sitemap"></span><span class="text-middle">Sitemap</span></a></li>
-                              <li><a href="coming-soon.html"><span class="rd-navbar-icon mdi mdi-clock-fast"></span><span class="text-middle">Coming Soon</span></a></li>
-                              <li><a href="search-results.html"><span class="rd-navbar-icon mdi mdi-magnify"></span><span class="text-middle">Search Results</span></a></li>
-                              <li><a href="login.html"><span class="rd-navbar-icon mdi mdi-login"></span><span class="text-middle">Login</span></a></li>
-                            </ul>
-                            <ul class="col-lg-3">
-                              <li><a href="register.html"><span class="rd-navbar-icon mdi mdi-account-multiple-outline"></span><span class="text-middle">Register</span></a></li>
-                              <li><a href="register-login.html"><span class="rd-navbar-icon mdi mdi-account-multiple-outline"></span><span class="text-middle">Login / Register</span></a></li>
-                              <li><a href="pricing.html"><span class="rd-navbar-icon mdi mdi-certificate"></span><span class="text-middle">Pricing</span></a></li>
-                              <li><a href="make-an-appointment.html"><span class="rd-navbar-icon mdi mdi-calendar-clock"></span><span class="text-middle">Appointment</span></a></li>
-                              <li><a href="make-an-appointment-variant-2.html"><span class="rd-navbar-icon mdi mdi-calendar-clock"></span><span class="text-middle">Appointment v2</span></a></li>
-                              <li><a href="maintenance.html"><span class="rd-navbar-icon mdi mdi-wrench"></span><span class="text-middle">Maintenance</span></a></li>
-                              <li><a href="clients.html"><span class="rd-navbar-icon mdi mdi-wrench"></span><span class="text-middle">Clients</span></a></li>
-                              <li><a href="under-construction.html"><span class="rd-navbar-icon mdi mdi-worker"></span><span class="text-middle">Under Construction</span></a></li>
-                              <li><a href="privacy.html"><span class="rd-navbar-icon mdi mdi-file-outline"></span><span class="text-middle">Privacy Policy</span></a></li>
-                            </ul>
-                          </div>
-                        </div>
+                          </li>
+
+                          <li><a href="google-map.php"><span class="text-middle">Where to use card</span></a>
+                          </li>
+                          </ul>
+                          </li>
+                        
                       </li>
                       <li><a href="#"><span>Rewards</span></a>
                         <ul class="rd-navbar-dropdown">
-                          <li><a href="Rewards.php"><span class="text-middle">Merchandise Rewards</span></a>
+                          <li><a href="merchandise-rewards.php"><span class="text-middle">Merchandise Rewards</span></a>
                           </li>
 
                           <li><a href="service-rewards.php"><span class="text-middle">Service Rewards</span></a>
