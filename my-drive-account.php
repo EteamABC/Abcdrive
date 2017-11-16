@@ -59,13 +59,13 @@ if(!$user->is_logged_in()){ header('Location: login.php'); }
         <!-- Who i Am-->
         <section class="section-98 section-sm-110">
           <div class="shell">
-            <h1><?php echo $row['user_nicename']; ?></h1>
+            <h1>Welcome to your DRIVE account</h1>
             <hr class="divider bg-mantis">
             <div class="range range-xs-center offset-top-20">
               <div class="cell-sm-9 cell-md-6">
                         <!-- Member Block Type-2-->
                         <div class="center-block"><img class="img-circle" src="images/users/user-eugene-newman-140x140.jpg" alt=""></div>
-                        <h4>Welcome to your DRIVE account</h4>
+                        <h4><?php echo $row['user_nicename']; ?></h4>
                         <p>I am a jack of all trades when it comes to web design, app development and content marketing. With 12 years of experience I am proud to be called a web designer.</p>
                 <ul class="list-inline list-inline-lg list-inline-dashed list-inline-dashed-wide list-inline-picton-blue">
                   <li class="big"><a class="text-bold text-uppercase" href="#"><span class="veil reveal-md-inline-block">Change my password</span></a></li>
@@ -82,7 +82,7 @@ if(!$user->is_logged_in()){ header('Location: login.php'); }
             <hr class="divider bg-mantis">
             <div class="range range-xs-center offset-top-20">
               <div class="cell-sm-9 cell-md-10">
-                <form class="rd-mailform text-left" data-form-output="form-output-global" data-form-type="registration" method="post" action="bat/rd-registration-form.php">
+                <form class="rd-mailform text-left" data-form-output="form-output-global" data-form-type="update-data" method="post" action="bat/rd-update-data-form.php">
                     <div class="range range-xs-center">
                       <div class="cell-sm-6 offset-md-top-20">
                         <div class="form-group">
@@ -868,6 +868,12 @@ if(!$user->is_logged_in()){ header('Location: login.php'); }
             </div>
           </div>
         </section>
+
+        <?php echo $row['MbStmnt']; ?>
+
+        <?php echo $row['MbVouchers']; ?>
+
+
 
       <?php
         }
