@@ -1,0 +1,13 @@
+<!-- #{title} -->
+<!-- #{familyname} -->
+<!-- #{firstname} -->
+<!-- #{othername} -->
+
+<!-- #{mobilephone} -->
+<!-- #{homephone} -->[Phone2]
+
+
+<!-- #{memberemail} -->
+
+
+
