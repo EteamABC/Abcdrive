@@ -4,7 +4,7 @@ if (!isset($_GET['s'])) {
 }
 
 $highlight = true;//highlight results or not
-$search_in = array('html', 'htm');//allowable filetypes to search in
+$search_in = array('php', 'php');//allowable filetypes to search in
 $search_dir = '..';//starting directory
 $recursive = true;//should it search recursively or not
 define('SIDE_CHARS', 15);
@@ -49,7 +49,12 @@ foreach ($files as $file) {
 
         $found = strpos_recursive(mb_strtolower($clean_content, 'UTF-8'), $search_term);
 
-$final_result[$file_count]['page_title'][] = $page_title[1];
+        if (isset($page_title[1]) && isset($page_title[0][1]))
+          $final_result[$file_count]['page_title'][] = $page_title[1];
+        else
+          $final_result[$file_count]['page_title'][] = '';
+
+
         $final_result[$file_count]['file_name'][] = preg_replace("/^.{3}/", "\\1", $file);
     }
 
@@ -122,12 +127,31 @@ if ($file_count > 0) {
                         <li class="result-item">
 
                             <?php
-                            $replacement = [$final_result[$i]['page_title'][0],
+
+                            // $final_result[$i]['page_title'][0] = '';
+                            // $final_result[$i]['file_name'][0] = '';
+
+                            if (!isset($final_result[$i]['page_title'][0]) && !isset($final_result[$i]['file_name'][0])) {
+                                $replacement = ['',
+                                'No link available',
+                                $final_result[$i]['search_result'][0],
+                                count($final_result[$i]['search_result'])
+                            ];
+                            $template = preg_replace(["/#{title}/","/#{href}/","/#{token}/","/#{count}/"],$replacement, $search_template);
+
+                            } else {
+
+                                $replacement = [$final_result[$i]['page_title'][0],
                                 $final_result[$i]['file_name'][0],
                                 $final_result[$i]['search_result'][0],
                                 count($final_result[$i]['search_result'])
                             ];
                             $template = preg_replace(["/#{title}/","/#{href}/","/#{token}/","/#{count}/"],$replacement, $search_template);
+
+                            }
+                            
+
+                            
                             for ($k = 0; $k < count($template_tokens); $k++){
                                 if (isset($final_result[$i][$template_tokens[$k]])){
                                     $template = preg_replace("/#{" . $template_tokens[$k] . "}/", $final_result[$i][$template_tokens[$k]], $template);
@@ -135,7 +159,7 @@ if ($file_count > 0) {
                                     $template = preg_replace("/#{" . $template_tokens[$k] . "}/", " ", $template);
                                 }
                             }
-
+                            
                             echo $template; ?>
                         </li>
                     <?php
