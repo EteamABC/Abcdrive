@@ -9132,8 +9132,8 @@ li.btn-group-vertical > span.active {
 
 .btn-primary {
   color: #fff;
-  background-color: #42b574;
-  border-color: #42b574; }
+  background-color: #c7283a;
+  border-color: #c7283a; }
   .btn-primary:focus, .btn-primary.focus, .btn-primary:hover, .btn-primary:active, .btn-primary.active,
   .open > .btn-primary.dropdown-toggle {
     color: #fff;
@@ -9300,13 +9300,13 @@ li.btn-group-vertical > span.active {
 
 .btn-picton-blue {
   color: #fff;
-  background-color: #55bbeb;
-  border-color: #55bbeb; }
+  background-color: #c7283a;
+  border-color: #c7283a; }
   .btn-picton-blue:focus, .btn-picton-blue.focus, .btn-picton-blue:hover, .btn-picton-blue:active, .btn-picton-blue.active,
   .open > .btn-picton-blue.dropdown-toggle {
     color: #fff;
-    background-color: #43dfe8;
-    border-color: #43dfe8; }
+    background-color: #db4655;
+    border-color: #db4655; }
   .btn-picton-blue:active, .btn-picton-blue.active,
   .open > .btn-picton-blue.dropdown-toggle {
     -webkit-box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.15);
@@ -9316,8 +9316,8 @@ li.btn-group-vertical > span.active {
     .open > .btn-picton-blue.dropdown-toggle:focus,
     .open > .btn-picton-blue.dropdown-toggle.focus {
       color: #fff;
-      background-color: #43dfe8;
-      border-color: #43dfe8; }
+      background-color: #c7283a;
+      border-color: #c7283a; }
   .btn-picton-blue.disabled, .btn-picton-blue[disabled],
   fieldset[disabled] .btn-picton-blue {
     pointer-events: none;
@@ -9641,13 +9641,13 @@ li.btn-group-vertical > span.active {
     animation: criss-cross-right 0.8s; }
   .btn-anis-effect.btn-primary {
     color: #fff;
-    background-color: #42b574; }
+    background-color: #c7283a; }
     .btn-anis-effect.btn-primary:before, .btn-anis-effect.btn-primary:after {
-      background: #79ccf2; }
+      background: #929393; }
     .btn-anis-effect.btn-primary:hover {
       color: #fff;
-      border-color: #79ccf2;
-      background: #79ccf2; }
+      border-color: #929393;
+      background: #929393; }
   .btn-anis-effect.btn-default, .pagination-classic > li + li:not(:last-child) > a.btn-anis-effect,
   .pagination-classic > li + li:not(:last-child) > span.btn-anis-effect {
     color: #434345;
@@ -26775,14 +26775,14 @@ html .page .offset-top-124 {
       -o-transition: .3s all ease;
       transition: .3s all ease; }
       .rd-navbar-default.rd-navbar-static .rd-navbar-nav > li > a:after, .rd-navbar-floated.rd-navbar-static .rd-navbar-nav > li > a:after, .rd-navbar-top-panel.rd-navbar-static .rd-navbar-nav > li > a:after {
-        background: -moz-linear-gradient(90deg, #42b574 0%, #84c450 100%);
-        background: -webkit-linear-gradient(90deg, #42b574 0%, #84c450 100%);
-        background: -o-linear-gradient(90deg, #42b574 0%, #84c450 100%);
-        background: -ms-linear-gradient(90deg, #42b574 0%, #84c450 100%);
-        background: -webkit-gradient(linear, left top, right top, from(#42b574), to(#84c450));
-        background: -webkit-linear-gradient(left, #42b574 0%, #84c450 100%);
-        background: -o-linear-gradient(left, #42b574 0%, #84c450 100%);
-        background: linear-gradient(90deg, #42b574 0%, #84c450 100%); }
+        background: -moz-linear-gradient(90deg, #c7283a 0%, #c7283a 100%);
+        background: -webkit-linear-gradient(90deg, #c7283a 0%, #c7283a 100%);
+        background: -o-linear-gradient(90deg, #c7283a 0%, #c7283a 100%);
+        background: -ms-linear-gradient(90deg, #c7283a 0%, #c7283a 100%);
+        background: -webkit-gradient(linear, left top, right top, from(#c7283a), to(#c7283a));
+        background: -webkit-linear-gradient(left, #c7283a 0%, #c7283a 100%);
+        background: -o-linear-gradient(left, #c7283a 0%, #c7283a 100%);
+        background: linear-gradient(90deg, #c7283a 0%, #c7283a 100%); }
     .rd-navbar-default.rd-navbar-static .rd-navbar-nav > li > a > .rd-navbar-label, .rd-navbar-floated.rd-navbar-static .rd-navbar-nav > li > a > .rd-navbar-label, .rd-navbar-top-panel.rd-navbar-static .rd-navbar-nav > li > a > .rd-navbar-label {
       position: absolute;
       margin: -10px 0 0 -15px; }
