@@ -170,7 +170,7 @@
                       </div>
                       <div class="cell-sm-3 offset-md-top-20">
                         <div class="form-group">
-                          <label class="form-label form-label-outside" for="git-3-mailform-last-name">Days:</label>
+                          <label class="form-label form-label-outside" for="git-3-mailform-last-name">Day:</label>
                           <select class="form-control select2-hidden-accessible" name="menubdayday" id="rd-mailform-select" data-placeholder="Select an option" data-minimum-results-for-search="Infinity" tabindex="-1" aria-hidden="true">
                             <option value="01" selected="selected">01</option>
                             <option value="02">02</option>
@@ -208,7 +208,7 @@
                       </div>
                       <div class="cell-sm-3 offset-md-top-20">
                         <div class="form-group">
-                          <label class="form-label form-label-outside" for="git-3-mailform-last-name">Months:</label>
+                          <label class="form-label form-label-outside" for="git-3-mailform-last-name">Month:</label>
                           <select class="form-control select2-hidden-accessible" name="menubdaymonth" id="rd-mailform-select" data-placeholder="Select an option" data-minimum-results-for-search="Infinity" tabindex="-1" aria-hidden="true">
                             <option value="01" selected="selected">01</option>
                             <option value="02">02</option>
@@ -227,7 +227,7 @@
                       </div>
                       <div class="cell-sm-3 offset-md-top-20">
                         <div class="form-group">
-                          <label class="form-label form-label-outside" for="git-3-mailform-last-name">Years:</label>
+                          <label class="form-label form-label-outside" for="git-3-mailform-last-name">Year:</label>
                           <select class="form-control select2-hidden-accessible" name="menubdayyear" id="rd-mailform-select" data-placeholder="Select an option" data-minimum-results-for-search="Infinity" tabindex="-1" aria-hidden="true">
                             <option value="1998" selected="selected">1998</option>
                             <option value="1997">1997</option>
@@ -344,7 +344,7 @@
                       <div class="cell-sm-12">
                         <div class="form-group offset-sm-top-20">
                           <label class="form-label form-label-outside" for="git-3-mailform-email">E-mail * :</label>
-                          <input class="form-control bg-white" id="git-3-mailform-email" type="text" name="memberemail" data-constraints="@Required @Email">
+                          <input class="form-control bg-white" id="git-3-mailform-email" type="text" value="yourmail@example.com" name="memberemail" data-constraints="@Required @Email">
                         </div>
                       </div>
                       
@@ -1088,7 +1088,7 @@
                         </div>
                       </div>
 
-                      <div class="cell-sm-12 offset-md-top-30">
+                      <!-- <div class="cell-sm-12 offset-md-top-30">
                         <div class="form-group">
                           <h5>Child 1</h5>
                         </div>
@@ -1122,7 +1122,7 @@
                         <div class="form-group">
                           <label class="form-label form-label-outside" for="git-3-mailform-last-name">Days:</label>
                           <select class="form-control select2-hidden-accessible" name="menubdaydayKid1" id="rd-mailform-select" data-placeholder="Select an option" data-minimum-results-for-search="Infinity" tabindex="-1" aria-hidden="true">
-                            <option value="---" selected="selected">---</option>
+                            <option value="" selected="selected">---</option>
                             <option value="01">01</option>
                             <option value="02">02</option>
                             <option value="03">03</option>
@@ -1161,7 +1161,7 @@
                         <div class="form-group">
                           <label class="form-label form-label-outside" for="git-3-mailform-last-name">Months:</label>
                           <select class="form-control select2-hidden-accessible" name="menubdaymonthKid1" id="rd-mailform-select" data-placeholder="Select an option" data-minimum-results-for-search="Infinity" tabindex="-1" aria-hidden="true">
-                            <option value="---" selected="selected">---</option>
+                            <option value="" selected="selected">---</option>
                             <option value="01">01</option>
                             <option value="02">02</option>
                             <option value="03">03</option>
@@ -1181,7 +1181,7 @@
                         <div class="form-group">
                           <label class="form-label form-label-outside" for="git-3-mailform-last-name">Years:</label>
                           <select class="form-control select2-hidden-accessible" name="menubdayyearKid1" id="rd-mailform-select" data-placeholder="Select an option" data-minimum-results-for-search="Infinity" tabindex="-1" aria-hidden="true">
-                            <option value="---" selected="selected">---</option>
+                            <option value="" selected="selected">---</option>
                             <option value="1998">1998</option>
                             <option value="1997">1997</option>
                             <option value="1996">1996</option>
@@ -1314,7 +1314,7 @@
                         <div class="form-group">
                           <label class="form-label form-label-outside" for="git-3-mailform-last-name">Days:</label>
                           <select class="form-control select2-hidden-accessible" name="menubdaydayKid2" id="rd-mailform-select" data-placeholder="Select an option" data-minimum-results-for-search="Infinity" tabindex="-1" aria-hidden="true">
-                            <option value="---" selected="selected">---</option>
+                            <option value="" selected="selected">---</option>
                             <option value="01">01</option>
                             <option value="02">02</option>
                             <option value="03">03</option>
@@ -1353,7 +1353,7 @@
                         <div class="form-group">
                           <label class="form-label form-label-outside" for="git-3-mailform-last-name">Months:</label>
                           <select class="form-control select2-hidden-accessible" name="menubdaymonthKid2" id="rd-mailform-select" data-placeholder="Select an option" data-minimum-results-for-search="Infinity" tabindex="-1" aria-hidden="true">
-                            <option value="---" selected="selected">---</option>
+                            <option value="" selected="selected">---</option>
                             <option value="01">01</option>
                             <option value="02">02</option>
                             <option value="03">03</option>
@@ -1373,7 +1373,7 @@
                         <div class="form-group">
                           <label class="form-label form-label-outside" for="git-3-mailform-last-name">Years:</label>
                           <select class="form-control select2-hidden-accessible" name="menubdayyearKid2" id="rd-mailform-select" data-placeholder="Select an option" data-minimum-results-for-search="Infinity" tabindex="-1" aria-hidden="true">
-                            <option value="---" selected="selected">---</option>
+                            <option value="" selected="selected">---</option>
                             <option value="1998">1998</option>
                             <option value="1997">1997</option>
                             <option value="1996">1996</option>
@@ -1506,7 +1506,7 @@
                         <div class="form-group">
                           <label class="form-label form-label-outside" for="git-3-mailform-last-name">Days:</label>
                           <select class="form-control select2-hidden-accessible" name="menubdaydayKid3" id="rd-mailform-select" data-placeholder="Select an option" data-minimum-results-for-search="Infinity" tabindex="-1" aria-hidden="true">
-                            <option value="---" selected="selected">---</option>
+                            <option value="" selected="selected">---</option>
                             <option value="01">01</option>
                             <option value="02">02</option>
                             <option value="03">03</option>
@@ -1545,7 +1545,7 @@
                         <div class="form-group">
                           <label class="form-label form-label-outside" for="git-3-mailform-last-name">Months:</label>
                           <select class="form-control select2-hidden-accessible" name="menubdaymonthKid3" id="rd-mailform-select" data-placeholder="Select an option" data-minimum-results-for-search="Infinity" tabindex="-1" aria-hidden="true">
-                            <option value="---" selected="selected">---</option>
+                            <option value="" selected="selected">---</option>
                             <option value="01">01</option>
                             <option value="02">02</option>
                             <option value="03">03</option>
@@ -1565,7 +1565,7 @@
                         <div class="form-group">
                           <label class="form-label form-label-outside" for="git-3-mailform-last-name">Years:</label>
                           <select class="form-control select2-hidden-accessible" name="menubdayyearKid3" id="rd-mailform-select" data-placeholder="Select an option" data-minimum-results-for-search="Infinity" tabindex="-1" aria-hidden="true">
-                            <option value="---" selected="selected">---</option>
+                            <option value="" selected="selected">---</option>
                             <option value="1998">1998</option>
                             <option value="1997">1997</option>
                             <option value="1996">1996</option>
@@ -1698,7 +1698,7 @@
                         <div class="form-group">
                           <label class="form-label form-label-outside" for="git-3-mailform-last-name">Days:</label>
                           <select class="form-control select2-hidden-accessible" name="menubdaydayKid4" id="rd-mailform-select" data-placeholder="Select an option" data-minimum-results-for-search="Infinity" tabindex="-1" aria-hidden="true">
-                            <option value="---" selected="selected">---</option>
+                            <option value="" selected="selected">---</option>
                             <option value="01">01</option>
                             <option value="02">02</option>
                             <option value="03">03</option>
@@ -1737,7 +1737,7 @@
                         <div class="form-group">
                           <label class="form-label form-label-outside" for="git-3-mailform-last-name">Months:</label>
                           <select class="form-control select2-hidden-accessible" name="menubdaymonthKid4" id="rd-mailform-select" data-placeholder="Select an option" data-minimum-results-for-search="Infinity" tabindex="-1" aria-hidden="true">
-                            <option value="---" selected="selected">---</option>
+                            <option value="" selected="selected">---</option>
                             <option value="01">01</option>
                             <option value="02">02</option>
                             <option value="03">03</option>
@@ -1757,7 +1757,7 @@
                         <div class="form-group">
                           <label class="form-label form-label-outside" for="git-3-mailform-last-name">Years:</label>
                           <select class="form-control select2-hidden-accessible" name="menubdayyearKid4" id="rd-mailform-select" data-placeholder="Select an option" data-minimum-results-for-search="Infinity" tabindex="-1" aria-hidden="true">
-                            <option value="---" selected="selected">---</option>
+                            <option value="" selected="selected">---</option>
                             <option value="1998">1998</option>
                             <option value="1997">1997</option>
                             <option value="1996">1996</option>
@@ -1854,7 +1854,7 @@
                             <option value="1905">1905</option>
                           </select>
                         </div>
-                      </div>
+                      </div> -->
 
                       
                       <div class="cell-sm-12 offset-md-top-30">
