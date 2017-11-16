@@ -1,0 +1,43 @@
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+Message Body:
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXSTARTREGXX
+
+xxxcardidxxx<!-- #{cardnumber} -->zzzcardidzz
+xxxemailxxx<!-- #{memberemail} -->zzzemailzzz
+xxxMobilephonexxx<!-- #{mobilephone} -->zzzMobilephonezzz
+xxxPhonexxx<!-- #{homephone} -->zzzPhonezzz
+xxxAdLine1xxx<!-- #{address} -->zzzAdLine1zzz
+xxxAdLine2xxx<!-- #{address2} -->zzzAdLine2zzz
+xxxmenusuburbxxx<!-- #{area} -->zzzmenusuburbzzz
+xxxmenucityxxx<!-- #{menucity} -->zzzmenucityzzz
+xxxjobtitlexxx<!-- #{profession} -->zzzjobtitlezzz
+xxxcompanyxxx<!-- #{companyname} -->zzzcompanyzzz
+xxxIndustryclassxxx<!-- #{industry} -->zzzIndustryclasszzz
+xxxPhone2xxx<!-- #{officephone} -->zzzPhone2zzz
+xxxBrand1xxx<!-- #{brand1} -->zzzBrand1zzz
+xxxModel1xxx<!-- #{model1} -->zzzModel1zzz
+xxxPlate1xxx<!-- #{plate1} -->zzzPlate1zzz
+xxxCarownType1xxx<!-- #{carownertype1} -->zzzCarownType1zzz
+xxxBrand2xxx<!-- #{brand2} -->zzzBrand2zzz
+xxxModel2xxx<!-- #{model2} -->zzzModel2zzz
+xxxPlate2xxx<!-- #{plate2} -->zzzPlate2zzz
+xxxCarownType2xxx<!-- #{carownertype2} -->zzzCarownType2zzz
+xxxmenumstatusxxx<!-- #{maritalstatus} -->zzzmenumstatuszzz
+xxxspouseTitlexxx<!-- #{spousetitle} -->zzzspouseTitlezzz
+xxxspousefirstnamexxx<!-- #{spousefirstname} -->zzzspousefirstnamezzz
+xxxspousenamexxx<!-- #{spousename} -->zzzspousenamezzz
+
+
+
+
+XXENDREGXX
