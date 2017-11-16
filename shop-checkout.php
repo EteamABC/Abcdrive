@@ -53,31 +53,47 @@
               <div class="offset-sm-top-66">
                  <div class="range range-xs-center">
                     <div class="cell-xs-10 cell-md-8">
+
+                        <?php
+
+                        $code = $_GET['idv'];
+
+                          $mysqli = new mysqli('localhost', 'root', '', 'abcdrive_wp662');
+                            $sql = 'SELECT * FROM wp9o_users WHERE user_login = '.$_SESSION['username'].'';
+                            $sql1 = 'SELECT * FROM rewards WHERE code = "'.$code.'" ';
+                            $result1 = mysqli_query ($mysqli, $sql1) or die('Error: ' . mysqli_error($mysqli));
+                            $result = mysqli_query ($mysqli, $sql) or die (mysqli_error ());
+                            while ($row = mysqli_fetch_array ($result)){
+
+                              while ($row1 = mysqli_fetch_array ($result1)){
+
+                        ?>
                        <!-- RD Mailform-->
-                       <form class="rd-mailform text-left" data-form-output="form-output-global" data-form-type="contact" method="post" action="bat/rd-mailform.php">
+                       <form class="rd-mailform text-left" data-form-output="form-output-global" data-form-type="voucher-request" method="post" action="bat/rd-voucher-request.php">
                           <div class="range range-xs-center">
                              <div class="cell-sm-6">
                                 <div class="form-group">
                                    <label class="form-label" for="git-3-mailform-first-name">Card Number</label>
-                                   <input class="form-control bg-white" id="git-3-mailform-first-name" type="text" name="firstname" data-constraints="@Required">
+                                   <input class="form-control bg-white" id="git-3-mailform-first-name" type="text" name="cardnumber" value="<?php echo $row['user_login']; ?>" data-constraints="@Required">
                                 </div>
                              </div>
                              <div class="cell-sm-6">
                                 <div class="form-group">
                                    <label class="form-label" for="git-3-mailform-last-name">Member</label>
-                                   <input class="form-control bg-white" id="git-3-mailform-last-name" type="text" name="lastname" data-constraints="@Required">
+                                   <input class="form-control bg-white" id="git-3-mailform-last-name" type="text" name="name" value="<?php echo $row['display_name']; ?>" data-constraints="@Required">
                                 </div>
                              </div>
                              <div class="cell-sm-6">
                                 <div class="form-group offset-sm-top-30">
                                    <label class="form-label" for="git-3-mailform-phone">Registered Email Address</label>
-                                   <input class="form-control bg-white" id="git-3-mailform-phone" type="text" name="phone" data-constraints="@Required @Email">
+                                   <input class="form-control bg-white" id="git-3-mailform-phone" type="text" name="memberemail" value="<?php echo $row['user_email']; ?>" data-constraints="@Required @Email">
                                 </div>
                              </div>
                              <div class="cell-sm-6">
                                 <div class="form-group offset-sm-top-30">
                                    <label class="form-label" for="git-3-mailform-email">Selected Voucher</label>
-                                   <input class="form-control bg-white" id="git-3-mailform-email" type="text" name="email" data-constraints="@Required">
+                                   <input class="form-control bg-white" id="git-3-mailform-email" type="text" name="vouchername" value="<?php echo strtoupper($row1['title']); ?>" data-constraints="@Required">
+                                   <input class="form-control bg-white" id="git-3-mailform-email" type="hidden" name="vouchercode" value="<?php echo $row1['code']; ?>">
                                 </div>
                              </div>
 
@@ -86,6 +102,11 @@
                               </div>
                           </div>
                        </form>
+
+                       <?php
+                        }
+                      }
+                       ?>
                     </div>
                  </div>
               </div>
