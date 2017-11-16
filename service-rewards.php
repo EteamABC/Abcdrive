@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html class="wide wow-animation smoothscroll scrollTo" lang="en">
+
   <?php include('header.php'); ?>
+
   <body>
     <!-- Page-->
     <div class="page text-center">
