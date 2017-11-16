@@ -97,22 +97,22 @@
                           <td align="left" valign="top" style="font-family: Arial, sans-serif; font-size: 14px; mso-line-height-rule: exactly; line-height: 36px; font-weight: 400;color: #302f35;">Welcome!</td> 
                         </tr>
                         <tr> 
-                          <td align="left" valign="top" style="font-family: Arial, sans-serif; font-size: 14px; mso-line-height-rule: exactly; margin-top: 8px; font-weight: 400;color: #302f35;">Thank you for registering with ABC Drive, a customer loyalty initiative by ABC Automobile.<br>Following your registration, an email will be sent to inform you that your account has been created and a link will be provided to create your password.</td> 
+                          <td align="left" valign="top" style="font-family: Arial, sans-serif; font-size: 14px; mso-line-height-rule: exactly; margin-top: 8px; line-height: 17px; font-weight: 400;color: #302f35;">Thank you for registering with ABC Drive, a customer loyalty initiative by ABC Automobile.<br>Following your registration, an email will be sent to inform you that your account has been created and a link will be provided to create your password.<br><br></td> 
                         </tr>
                         <tr> 
-                          <td align="left" valign="top" style="font-family: Arial, sans-serif; font-size: 14px; mso-line-height-rule: exactly; margin-top: 8px; font-weight: 400;color: #302f35;">Your Drive Card will be available to you within the next 10 days.</td> 
+                          <td align="left" valign="top" style="font-family: Arial, sans-serif; font-size: 14px; mso-line-height-rule: exactly; margin-top: 8px; font-weight: 400;color: #302f35;">Your Drive Card will be available to you within the next 10 days.<br><br></td> 
                         </tr>
                         <tr> 
-                          <td align="left" valign="top" style="font-family: Arial, sans-serif; font-size: 14px; mso-line-height-rule: exactly; line-height: 36px; font-weight: 400;color: #302f35;">Please do not hesitate to contact us if you have any questions or suggestions: <a href="http://abcdrive.info/contact-us.php">Click here to contact us!</a></td> 
+                          <td align="left" valign="top" style="font-family: Arial, sans-serif; font-size: 14px; mso-line-height-rule: exactly; line-height: 17px; font-weight: 400;color: #302f35;">Please do not hesitate to contact us if you have any questions or suggestions: <a href="http://abcdrive.info/contact-us.php">Click here to contact us!</a><br><br></td> 
                         </tr>
                         <tr> 
-                          <td align="left" valign="top" style="font-family: Arial, sans-serif; font-size: 14px; mso-line-height-rule: exactly; line-height: 36px; font-weight: 400;color: #302f35;">If you did not register with us and have received this message as an error, please disregard this message.</td> 
+                          <td align="left" valign="top" style="font-family: Arial, sans-serif; font-size: 14px; mso-line-height-rule: exactly; line-height: 17px; font-weight: 400;color: #302f35;">If you did not register with us and have received this message as an error, please disregard this message.<br><br></td> 
                         </tr>
                         <tr> 
                           <td align="left" valign="top" style="font-family: Arial, sans-serif; font-size: 14px; mso-line-height-rule: exactly; line-height: 40px; font-weight: 400;color: #302f35;">Yours Sincerely,</td> 
                         </tr>
                         <tr> 
-                          <td align="left" valign="top" style="font-family: Arial, sans-serif; font-size: 14px; mso-line-height-rule: exactly; line-height: 22px; font-weight: 400;color: #302f35;">ABC Drive Team<br/>Phone: (230) 405 1300<br/>Email: info@abcdrive.info<br/>www.abcdrive.info</td> 
+                          <td align="left" valign="top" style="font-family: Arial, sans-serif; font-size: 14px; mso-line-height-rule: exactly; line-height: 17px; font-weight: 400;color: #302f35;">ABC Drive Team<br/>Phone: (230) 405 1300<br/>Email: info@abcdrive.info<br/>www.abcdrive.info</td> 
                         </tr>
                         <tr> 
                           <td height="20" style="height: 20px; line-height:20px;"></td>
@@ -142,7 +142,7 @@
                           </td>
                         </tr>
                         <tr>
-                          <td height="20" style="height: 20px; line-height:20px;"></td>
+                          <td height="20" style="height: 20px; line-height: 17px;"></td>
                         </tr>
                         <tr>
                           <td align="left" valign="top" style="font-family: Arial, sans-serif; font-size: 24px; mso-line-height-rule: exactly; line-height: 30px; font-weight: 700;color: #302f35;">
@@ -161,12 +161,12 @@
                                 
                                   	<!-- #{BeginInfo} -->
                                     <tr> 
-                                      <td width="40" align="left" valign="top" style="padding: 0 10px 0 0;font-family: Arial, sans-serif; font-size: 14px; mso-line-height-rule: exactly; line-height: 20px; font-weight: 400;color: #302f35;font-weight: 700;"><!-- #{InfoState} --></td>
+                                      <td width="40" align="left" valign="top" style="padding: 0 10px 0 0;font-family: Arial, sans-serif; font-size: 14px; mso-line-height-rule: exactly; line-height: 17px; font-weight: 400;color: #302f35;font-weight: 700;"><!-- #{InfoState} --></td>
                                       <td align="left" valign="top" style="font-family: Arial, sans-serif; font-size: 14px; mso-line-height-rule: exactly; line-height: 20px; font-weight: 400;color: #302f35;"><!-- #{InfoDescription} --></td>
                                     </tr>
                                   	<!-- #{EndInfo} --> 
                                     <tr> 
-                                      <td width="40" align="left" valign="top" style="padding: 0 10px 0 0;font-family: Arial, sans-serif; font-size: 14px; mso-line-height-rule: exactly; line-height: 20px; font-weight: 400;color: #302f35;font-weight: 700;"><!-- #{MessageState} --></td>
+                                      <td width="40" align="left" valign="top" style="padding: 0 10px 0 0;font-family: Arial, sans-serif; font-size: 14px; mso-line-height-rule: exactly; line-height: 17px; font-weight: 400;color: #302f35;font-weight: 700;"><!-- #{MessageState} --></td>
                                       <td align="left" valign="top" style="font-family: Arial, sans-serif; font-size: 14px; mso-line-height-rule: exactly; line-height: 20px; font-weight: 400;color: #302f35;"><!-- #{MessageDescription} --></td>
                                     </tr>                                   
                                   </table>

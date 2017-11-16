@@ -1,5 +1,4 @@
-<pre>
-From: <!-- #{familyname} --> <!-- #{firstname} --> <a href="mailto:<!-- #{memberemail} -->"><!-- #{memberemail} --></a>
+From: <!-- #{familyname} --> <!-- #{firstname} --> <<!-- #{memberemail} -->>
 Subject: ABC Drive Registration
 
 Message Body:
@@ -66,5 +65,3 @@ xxxStartmenubdayyearKid4xxx:<!-- #{menubdayyearKid4} -->zzzEndmenubdayyearKid4zz
 xxxStartlngxxx:<!-- #{lng} -->zzzEndlngzzz
 xxxStartOriginxxx:WebsitezzzEndOriginzzz
 XXENDREGXX
-
-</pre>

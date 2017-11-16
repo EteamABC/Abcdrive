@@ -1,6 +1,7 @@
 <?php
 
 $recipients = 'registration@abcdrive.info';
+//$recipients = 'alexandre.retif@bramston.co';
 //$recipients = 'info@abcdrive.info';
 
 try {
@@ -477,23 +478,30 @@ try {
     if (isset($_POST['name'])){
         $mail->FromName = $_POST['name'];
     }else{
-        $mail->FromName = "Site Visitor";
+        $mail->FromName = "";
     }
 
     foreach ($addresses[0] as $key => $value) {
         $mail->addAddress($value[0]);
     }
 
-    $mail->CharSet = "text/html; charset=UTF-8;";
+    $mail->CharSet = "text/plain; charset=UTF-8;";
     $mail->setFrom($mail->From);
-    $mail->FromName = 'WordPress';
-    $mail->addAddress('eteamemarketing@gmail.com');
+    $mail->IsHTML(false);
     $mail->Subject = $subject; 
-    $mail->MsgHTML($template);
+    $mail->Body = $template;
     $mail->send();
 
+    //     $mail->CharSet = "text/plain; charset=UTF-8;";
+    // $mail->setFrom($mail->From);
+    // $mail->IsHTML(false);
+    // $mail->Subject = $subject; 
+    // $mail->Body = $template;
+    // $mail->send();
+
+
     $mail = new PHPMailer();
-    $mail->From = 'registration@abcdrive.info';
+    $mail->From = 'info@abcdrive.info';
 
     $mail->CharSet = "text/html; charset=UTF-8;";
     $mail->setFrom($mail->From);
