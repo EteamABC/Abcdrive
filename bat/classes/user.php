@@ -1,5 +1,6 @@
 <?php
 include('password.php');
+
 class User extends Password{
 
     private $_db;
@@ -27,7 +28,9 @@ class User extends Password{
 
 		$row = $this->get_user_hash($username);
 
-		if($this->password_verify($password,$row['user_pass']) == 1){
+		$wp_hasher = new PasswordHash(8, TRUE);
+
+		if($wp_hasher->CheckPassword($password, $row['user_pass'])){
 
 		    $_SESSION['loggedin'] = true;
 		    $_SESSION['username'] = $row['user_login'];
