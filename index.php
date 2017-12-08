@@ -7,7 +7,7 @@
     <!-- Page-->
     <div class="page text-center">
       <div class="page-loader page-loader-variant-1">
-        <div><img class='img-responsive' style='margin-top: -20px;margin-left: -18px;' width='330' height='67' src='images\abcdrive\logo\drive-logo-02.png' alt=''/>
+        <div><img class='img-responsive' style='margin-top: -20px;margin-left: -18px;' width='410' height='117' src='images\abcdrive\logo\drive-logo-02.png' alt=''/>
           <div class="offset-top-41 text-center">
             <div class="spinner"></div>
           </div>
@@ -33,7 +33,7 @@
                         <div class="range range-xs-center range-xs-middle">
                           <div class="cell-lg-10">
                             <div class="tp-caption" data-fontsize="['62', '48', '36', '28']" data-type="text" data-lineheight="['68', '44', '42', '34']" data-y="['center','center','center','center']" data-x="['center','center','center','center']" data-frames="[{&quot;delay&quot;:&quot;+400&quot;,&quot;speed&quot;:1700,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:250px;opacity:0;fb:50px;&quot;,&quot;to&quot;:&quot;o:1;fb:0;&quot;,&quot;ease&quot;:&quot;Power4.easeOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:400,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;fb:0;&quot;,&quot;ease&quot;:&quot;Power2.easeIn&quot;}]">
-                              <h1><span class="big text-uppercase">Welcome to ABC DRIVE</span></h1>
+                              <h1><span class="big text-uppercase">Welcome to DRIVE</span></h1>
                             </div>
                             <div class="hidden reveal-sm-block offset-top-30 tp-caption" data-visibility="['on', 'on', 'off', 'off']" data-type="text" data-y="['center','center','center','center']" data-x="['center','center','center','center']" data-frames="[{&quot;delay&quot;:&quot;600&quot;,&quot;speed&quot;:2000,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:250px;opacity:0;fb:50px;&quot;,&quot;to&quot;:&quot;o:1;fb:0;&quot;,&quot;ease&quot;:&quot;Power4.easeOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:400,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;fb:0;&quot;,&quot;ease&quot;:&quot;Power2.easeIn&quot;}]">
                               <h4 class="text-light">
@@ -41,7 +41,7 @@
                               </h4>
                             </div>
                             <div class="tp-caption" data-whitespace="['normal', 'normal', 'nowrap', 'normal']" data-type="text" data-fontsize="['inherit', 'inherit', 'inherit', 'inherit']" data-lineheight="['inherit', 'inherit', 'inherit', 'inherit']" data-y="['center','center','center','center']" data-x="['center','center','center','center']" data-frames="[{&quot;delay&quot;:&quot;700&quot;,&quot;speed&quot;:2000,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:250px;opacity:0;fb:50px;&quot;,&quot;to&quot;:&quot;o:1;fb:0;&quot;,&quot;ease&quot;:&quot;Power4.easeOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:400,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;fb:0;&quot;,&quot;ease&quot;:&quot;Power2.easeIn&quot;}]">
-                              <div class="group group-xl offset-top-20 offset-xs-top-50"><a class="btn btn-primary btn-lg btn-anis-effect" "><span class="btn-text">Become a member</span></a><a class="btn btn-default btn-lg btn-anis-effect" href="#" data-waypoint-to="#section-childs"><span class="btn-text">Get Started</span></a></div>
+                              <div class="group group-xl offset-top-20 offset-xs-top-50"><a class="btn btn-primary btn-lg btn-anis-effect" href="registration-form.php""><span class="btn-text">Become a member</span></a><a class="btn btn-default btn-lg btn-anis-effect" href="my-drive-account"><span class="btn-text">My Account</span></a></div>
                             </div>
                           </div>
                         </div>
@@ -157,9 +157,9 @@
                 <div class="range range-xs-center">
                   <div class="cell-md-3 cell-sm-5">
                             <!-- Counter type 2-->
-                            <div class="counter-type-2"><span class="icon mdi mdi-file-xml text-mantis"></span>
+                            <div class="counter-type-2"><span class="icon icon-xxs icon-rounded icon-darker-filled fa-facebook-f"></span>
                               <div class="offset-top-10"><span class="h1 text-bold counter" data-speed="1200" data-from="0" data-to="200"></span><span class="h1 text-bold">+</span></div>
-                              <div class="h6 text-uppercase text-spacing-60 text-bold offset-top-14">html Templates</div>
+                              <div class="h6 text-uppercase text-spacing-60 text-bold offset-top-14">likes</div>
                             </div>
                   </div>
                   <div class="cell-md-3 cell-sm-5 offset-top-66 offset-sm-top-0">
